@@ -1,33 +1,61 @@
 .index
+  h1
+    font-size: 30px
+    font-family: "proxima-nova", "Helvetica", Helvetica, sans-serif
+  .spinner_wrapper
+    position: absolute
+    left: 50%
+    top: 50%
+    z-index: 500
+    -webkit-animation-name: WRAPPER-ORBIT
+    -webkit-animation-duration: 10s
+    -webkit-animation-timing-function: linear
+    -webkit-animation-iteration-count: infinite
+  .spinner_center
+    position: absolute
+    left: 40%
+    top: 50%
+    z-index: 500
+
   .horse
-    background-color: blue
-    width: 100px
-    height: 100px
+    width: 80px
+    height: 80px
     position: absolute
     left: 315px
     top: 143px
-    animation: myOrbit 4s linear infinite
-    -webkit-animation: myOrbit 4s linear infinitekit
+    z-index: 500
+    -webkit-animation-name: MY-ORBIT
+    -webkit-animation-duration: 2s
+    -webkit-animation-timing-function: linear
+    -webkit-animation-iteration-count: infinite
+    img
+      height: 100%
+      width: 100%
+  .bike
+    width: 80px
+    height: 80px
+    position: absolute
+    left: 315px
+    top: 143px
+    z-index: 500
+    img
+      height: 100%
+      width: 100%
 
 
-=keyframes($name)
-  @-webkit-keyframes #{$name}
-    @content
-  @-moz-keyframes #{$name}
-    @content
-  @-ms-keyframes #{$name}
-    @content
-  @keyframes #{$name}
-    @content
 
-+keyframes(myOrbit)
+
+@-webkit-keyframes MY-ORBIT
   to
-    transform: rotate(0deg) translateX(150px) rotate(0deg)
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
   from
-    transform: rotate(360deg) translateX(150px) rotate(-360deg) 
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
-
-
+@-webkit-keyframes WRAPPER-ORBIT
+  to
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
+  from
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
 /* 
  *  Starry Night DEMO
@@ -38,21 +66,6 @@
   margin: 0
   padding: 0
 
-html
-  overflow-y: scroll
-
-.clear
-  clear: both
-
-.floatLeft
-  float: left
-
-.floatRight
-  float: right
-
-body
-  font: 10px / 2 "Lucida Grande", Helvetica, Sans-Serif
-  color: #eee
 
 @-webkit-keyframes STAR-MOVE
   from
