@@ -1,0 +1,27 @@
+.index
+  .horse
+    background-color: blue
+    width: 100px
+    height: 100px
+    position: absolute
+    left: 315px
+    top: 143px
+    animation: myOrbit 4s linear infinite
+    -webkit-animation: myOrbit 4s linear infinitekit
+
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
++keyframes(myOrbit)
+  to
+    transform: rotate(0deg) translateX(150px) rotate(0deg)
+  from
+    transform: rotate(360deg) translateX(150px) rotate(-360deg) 
