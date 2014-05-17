@@ -11,6 +11,10 @@
     -webkit-animation-duration: 10s
     -webkit-animation-timing-function: linear
     -webkit-animation-iteration-count: infinite
+    -moz-animation-name: WRAPPER-ORBIT
+    -moz-animation-duration: 10s
+    -moz-animation-timing-function: linear
+    -moz-animation-iteration-count: infinite
   .spinner_center
     position: absolute
     left: 40%
@@ -28,6 +32,10 @@
     -webkit-animation-duration: 2s
     -webkit-animation-timing-function: linear
     -webkit-animation-iteration-count: infinite
+    -moz-animation-name: MY-ORBIT
+    -moz-animation-duration: 2s
+    -moz-animation-timing-function: linear
+    -moz-animation-iteration-count: infinite
     img
       height: 100%
       width: 100%
@@ -63,6 +71,10 @@
     -webkit-animation-duration: 200s
     -webkit-animation-timing-function: linear
     -webkit-animation-iteration-count: infinite
+    -moz-animation-name: STAR-MOVE
+    -moz-animation-duration: 200s
+    -moz-animation-timing-function: linear
+    -moz-animation-iteration-count: infinite
 
   #midground
     background: url(../images/horse.gif) repeat 20% 20%
@@ -77,6 +89,10 @@
     -webkit-animation-duration: 150s
     -webkit-animation-timing-function: linear
     -webkit-animation-iteration-count: infinite
+    -moz-animation-name: STAR-MOVE
+    -moz-animation-duration: 150s
+    -moz-animation-timing-function: linear
+    -moz-animation-iteration-count: infinite
 
 
   #foreground
@@ -92,6 +108,10 @@
     -webkit-animation-duration: 100s
     -webkit-animation-timing-function: linear
     -webkit-animation-iteration-count: infinite
+    -moz-animation-name: STAR-MOVE-RIGHT
+    -moz-animation-duration: 100s
+    -moz-animation-timing-function: linear
+    -moz-animation-iteration-count: infinite
 
   .foreground_holder
     position: absolute
@@ -116,6 +136,10 @@
     -webkit-animation-duration: 500ms
     -webkit-animation-timing-function: linear
     -webkit-animation-iteration-count: infinite
+    -moz-animation-name: STAR-TOO-MOVE
+    -moz-animation-duration: 500ms
+    -moz-animation-timing-function: linear
+    -moz-animation-iteration-count: infinite
 
 
 
@@ -131,6 +155,19 @@
     -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
   from
     -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
+
+@-moz-keyframes MY-ORBIT
+  to
+    -moz-transform: rotate(0deg) translateX(150px) rotate(360deg)
+  from
+    -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg)
+
+
+@-moz-keyframes WRAPPER-ORBIT
+  to
+    -moz-transform: rotate(0deg) translateX(150px) rotate(360deg)
+  from
+    -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
 /* 
  *  Starry Night DEMO
@@ -167,4 +204,32 @@
     -webkit-transform: rotate(1deg)
   100%
     -webkit-transform: rotate(-1deg)
+
+
+@-moz-keyframes STAR-MOVE
+  from
+    left: 0
+    top: 0
+  to
+    left: -10000px
+    top: -3000px
+
+@-moz-keyframes STAR-MOVE-RIGHT
+  from
+    left: -10000px
+    top: -3000px
+  to
+    left: 0
+    top: 0
+
+
+
+@-moz-keyframes STAR-TOO-MOVE
+  0%
+    -moz-transform: rotate(0deg)
+  50%
+    -moz-transform: rotate(1deg)
+  100%
+    -moz-transform: rotate(-1deg)
+
 
