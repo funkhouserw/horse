@@ -57,6 +57,7 @@
   from
     -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
+
 @-webkit-keyframes WRAPPER-ORBIT
   to
     -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
@@ -80,6 +81,15 @@
   to
     left: -10000px
     top: -3000px
+
+@-webkit-keyframes STAR-MOVE-RIGHT
+  from
+    left: -10000px
+    top: -3000px
+  to
+    left: 0
+    top: 0
+
 
 
 @-webkit-keyframes STAR-TOO-MOVE
@@ -127,7 +137,7 @@
   right: 0
   bottom: 0
   z-index: 300
-  -webkit-animation-name: STAR-MOVE
+  -webkit-animation-name: STAR-MOVE-RIGHT
   -webkit-animation-duration: 100s
   -webkit-animation-timing-function: linear
   -webkit-animation-iteration-count: infinite
