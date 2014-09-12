@@ -143,31 +143,31 @@
 
 
 
-@-webkit-keyframes MY-ORBIT
-  to
-    -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
-  from
-    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
+  @-webkit-keyframes MY-ORBIT
+    to
+      -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
+    from
+      -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
 
-@-webkit-keyframes WRAPPER-ORBIT
-  to
-    -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
-  from
-    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
+  @-webkit-keyframes WRAPPER-ORBIT
+    to
+      -webkit-transform: rotate(0deg) translateX(150px) rotate(360deg)
+    from
+      -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
-@-moz-keyframes MY-ORBIT
-  to
-    -moz-transform: rotate(0deg) translateX(150px) rotate(360deg)
-  from
-    -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg)
+  @-moz-keyframes MY-ORBIT
+    to
+      -moz-transform: rotate(0deg) translateX(150px) rotate(360deg)
+    from
+      -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
 
-@-moz-keyframes WRAPPER-ORBIT
-  to
-    -moz-transform: rotate(0deg) translateX(150px) rotate(360deg)
-  from
-    -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg)
+  @-moz-keyframes WRAPPER-ORBIT
+    to
+      -moz-transform: rotate(0deg) translateX(150px) rotate(360deg)
+    from
+      -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg)
 
 /* 
  *  Starry Night DEMO
@@ -179,57 +179,122 @@
   padding: 0
 
 
-@-webkit-keyframes STAR-MOVE
-  from
-    left: 0
+  @-webkit-keyframes STAR-MOVE
+    from
+      left: 0
+      top: 0
+    to
+      left: -10000px
+      top: -3000px
+
+  @-webkit-keyframes STAR-MOVE-RIGHT
+    from
+      left: -10000px
+      top: -3000px
+    to
+      left: 0
+      top: 0
+
+
+
+  @-webkit-keyframes STAR-TOO-MOVE
+    0%
+      -webkit-transform: rotate(0deg)
+    50%
+      -webkit-transform: rotate(1deg)
+    100%
+      -webkit-transform: rotate(-1deg)
+
+
+  @-moz-keyframes STAR-MOVE
+    from
+      left: 0
+      top: 0
+    to
+      left: -10000px
+      top: -3000px
+
+  @-moz-keyframes STAR-MOVE-RIGHT
+    from
+      left: -10000px
+      top: -3000px
+    to
+      left: 0
+      top: 0
+
+
+
+  @-moz-keyframes STAR-TOO-MOVE
+    0%
+      -moz-transform: rotate(0deg)
+    50%
+      -moz-transform: rotate(1deg)
+    100%
+      -moz-transform: rotate(-1deg)
+
+  .glitch_title
+    position: absolute
+    top: 100px
+    right: 40px
+    z-index: 99999
+    background-color: black
+    .glitch
+      color: white
+      font-size: 100px
+      position: relative
+      width: 600px
+      margin: 0 auto
+    
+  @-webkit-keyframes noise-anim
+    $steps: 20
+    @for $i from 0 through $steps
+      #{percentage($i*(1/$steps))}
+        clip: rect(random(100)+px,9999px,random(100)+px,0)
+
+  @-moz-keyframes noise-anim
+    $steps: 20
+    @for $i from 0 through $steps
+      #{percentage($i*(1/$steps))}
+        clip: rect(random(100)+px,9999px,random(100)+px,0)
+
+
+  .glitch:after
+    content: attr(data-text)
+    position: absolute
+    left: 2px
+    text-shadow: -1px 0 red
     top: 0
-  to
-    left: -10000px
-    top: -3000px
+    color: white
+    background: black
+    overflow: hidden
+    clip: rect(0,900px,0,0) 
+    -webkit-animation: noise-anim 2s infinite linear alternate-reverse
+    -moz-animation: noise-anim 2s infinite linear alternate-reverse
+      
 
-@-webkit-keyframes STAR-MOVE-RIGHT
-  from
-    left: -10000px
-    top: -3000px
-  to
-    left: 0
+  @-webkit-keyframes noise-anim-2
+    $steps:20
+    @for $i from 0 through $steps
+      #{percentage($i*(1/$steps))}
+        clip: rect(random(100)+px,9999px,random(100)+px,0)
+
+  @-moz-keyframes noise-anim-2
+    $steps:20
+    @for $i from 0 through $steps
+      #{percentage($i*(1/$steps))}
+        clip: rect(random(100)+px,9999px,random(100)+px,0)        
+        
+      
+  .glitch:before
+    content: attr(data-text)
+    position: absolute
+    left: -2px
+    text-shadow: 1px 0 blue 
     top: 0
-
-
-
-@-webkit-keyframes STAR-TOO-MOVE
-  0%
-    -webkit-transform: rotate(0deg)
-  50%
-    -webkit-transform: rotate(1deg)
-  100%
-    -webkit-transform: rotate(-1deg)
-
-
-@-moz-keyframes STAR-MOVE
-  from
-    left: 0
-    top: 0
-  to
-    left: -10000px
-    top: -3000px
-
-@-moz-keyframes STAR-MOVE-RIGHT
-  from
-    left: -10000px
-    top: -3000px
-  to
-    left: 0
-    top: 0
-
-
-
-@-moz-keyframes STAR-TOO-MOVE
-  0%
-    -moz-transform: rotate(0deg)
-  50%
-    -moz-transform: rotate(1deg)
-  100%
-    -moz-transform: rotate(-1deg)
-
-
+    color: white
+    background: black
+    overflow: hidden
+    clip: rect(0,900px,0,0) 
+    -webkit-animation: noise-anim-2 3s infinite linear alternate-reverse
+    -moz-animation: noise-anim-2 3s infinite linear alternate-reverse
+      
