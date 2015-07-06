@@ -1,874 +1,877 @@
+.hidden_counter style="display:none"= 1
+div
+  |
 
-div hello world
-/ div
-/   |
-/ 
-/     <body>
-/         
-/         <style>
-/         .lt-ie10 .messenger.suggestions {
-/             display: block !important;
-/             height: 50px;
-/         }
-/ 
-/         .lt-ie10 .messenger.suggestions .message-bed {
-/             background-color: #f8e9d2;
-/             border-bottom: 1px solid #ccc;
-/         }
-/ 
-/         .lt-ie10 .messenger.suggestions .message-container {
-/             padding: 11px 18px 11px 30px;
-/         }
-/ 
-/         .lt-ie10 .messenger.suggestions .action-link {
-/             font-family: "nyt-franklin", arial, helvetica, sans-serif;
-/             font-size: 10px;
-/             font-weight: bold;
-/             color: #a81817;
-/             text-transform: uppercase;
-/         }
-/ 
-/         .lt-ie10 .messenger.suggestions .alert-icon {
-/             background: url('http://i1.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
-/             width: 12px;
-/             height: 12px;
-/             display: inline-block;
-/             margin-top: -2px;
-/             float: none;
-/         }
-/ 
-/         .lt-ie10 .masthead,
-/         .lt-ie10 .navigation,
-/         .lt-ie10 .comments-panel {
-/             margin-top: 50px !important;
-/         }
-/ 
-/         .lt-ie10 .ribbon {
-/             margin-top: 97px !important;
-/         }
-/     </style>
-/ 
-/             <div class="user-tools">
-/                 <div id="sharetools-masthead" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-masthead  "
-/        ======================================================
-/     
-/     THIS IS A GENERATED TEMPLATE FILE. DO NOT EDIT.
-/     
-/     ======================================================
-/     
-/     -->
-/     <script type="text/javascript">
-/         // var img = document.createElement('img');
-/         // img.setAttribute('class', 'top-pencil');
-/         // img.src= 'http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/connect-the-dots.jpg';
-/     
-/     
-/             var h1 = document.querySelector('.interactive-headline');
-/             h1.innerHTML = "A Quick Puzzle to Test<br>Your Problem Solving";
-/     
-/     
-/         // var h1 = document.querySelector('h1')
-/     
-/     
-/     </script>
-/     
-/     <!-- this is generated from src/style.css -->
-/     <style>
-/     /* Center headlines for standalone and embedded interactives */
-/     /*@import url("nyt5/centered-headline.css");*/
-/     /* Fix spacing at top of story */
-/     .has-top-ad .story.theme-interactive,
-/     .has-ribbon .story.theme-interactive {
-/       margin-top: 10px;
-/     }
-/     /* Get rid of border under intro and share tools on mobile */
-/     .page-interactive-default .story.theme-main .story-header {
-/       border-bottom: none;
-/     }
-/     /* Pad out the kicker/sharetool space */
-/     .story.theme-interactive .story-meta .kicker {
-/       margin-bottom: 22px;
-/     }
-/     .viewport-medium-10 .story.theme-interactive .story-meta .kicker {
-/       margin-bottom: 24px;
-/     }
-/     /* Override the moving sharetools on mobile */
-/     .story.theme-interactive .story-header .story-meta .kicker-container .sharetools {
-/       position: relative;
-/       left: auto;
-/       bottom: auto;
-/       width: auto;
-/       margin-top: -6px;
-/       float: right;
-/       clear: none;
-/     }
-/     /* Maintain the proper space with the section name and kicker next to share tools */
-/     .story.theme-interactive .story-header .story-meta .interactive-kicker {
-/       float: left;
-/       width: 65%;
-/       display: inline-block;
-/     }
-/     /* Gets rid of the extra space under the intro that puts too much space there in mobile and desktop */
-/     .page-interactive-default .story.theme-main .story-header {
-/       margin-bottom: 0;
-/     }
-/     .page-interactive-default .story.theme-main .story-header .story-meta {
-/       margin-bottom: 10px;
-/     }
-/     /*Fixes styling on share tools at bottom of minimal interactives*/
-/     .story.theme-minimal .sharetools.layout-horizontal {
-/       width: auto;
-/       margin-top: 11px;
-/     }
-/     .story.theme-minimal .sharetools.layout-horizontal .sharetool {
-/       display: inline-block;
-/       border-top: 0;
-/     }
-/     .story.theme-minimal .sharetools.layout-horizontal .sharetool:first-child a {
-/       margin-left: 0;
-/       padding-left: 0;
-/       border-left: none;
-/     }
-/     .story.theme-minimal .sharetools.layout-horizontal .sharetool a {
-/       padding-left: 15px;
-/       padding-right: 5px;
-/       height: 20px;
-/       border-left: 1px solid #e2e2e2;
-/     }
-/     .story.theme-minimal .sharetools.layout-horizontal .sharetool a:hover {
-/       background-color: transparent;
-/     }
-/     /* uncomment to fix related content and footer layout on max_width: 720 pages */
-/     /*
-/     .related-coverage {
-/       max-width: 720px;
-/     }
-/     
-/     .viewport-medium-30 .page-footer nav ul,
-/     .viewport-medium-50 .page-footer nav ul {
-/       margin-left: 28px;
-/     }
-/     
-/     .viewport-medium-30 .page-footer nav.last-nav {
-/       float: none;
-/     }
-/     
-/     .viewport-medium-30 .page-footer nav.last-nav ul {
-/       margin-left: 239px;
-/     }
-/     */
-/     /*@import url("cards.less");*/
-/     .viewport-small.page-interactive-default .story.theme-main .story-header,
-/     .viewport-small.page-interactive-app .story.theme-main .story-header {
-/       background: #fdba12 url(http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/herman-mobile-25.png) no-repeat;
-/       background-size: 45vw;
-/       margin-left: 0;
-/       margin-right: 0;
-/       margin-top: 0px;
-/       height: 100vh;
-/       box-sizing: border-box;
-/       padding-top: 51vh;
-/       position: absolute;
-/       left: 0;
-/       right: 0;
-/       top: 0;
-/       z-index: -5;
-/       background-position-x: 28vw;
-/       background-position-y: 13vh;
-/       text-align: center;
-/     }
-/     .viewport-medium.page-interactive-default .story.theme-main .story-header,
-/     .viewport-medium.page-interactive-app .story.theme-main .story-header {
-/       background: #fff;
-/       background-size: auto;
-/       margin-left: 0;
-/       margin-right: 0;
-/       margin-top: 0px;
-/       height: auto;
-/       padding-top: 0;
-/       position: relative;
-/       z-index: auto;
-/       text-align: left;
-/     }
-/     .viewport-small .interactive-graphic {
-/       padding-top: 100vh;
-/       margin-top: -40px;
-/     }
-/     .viewport-medium .interactive-graphic {
-/       position: relative;
-/       padding-top: 0;
-/       margin-top: 0;
-/     }
-/     .viewport-small .masthead.masthead-theme-standard {
-/       background-color: transparent;
-/       border: none;
-/     }
-/     .viewport-medium .masthead.masthead-theme-standard {
-/       background-color: #fff;
-/       border: auto;
-/     }
-/     .viewport-small .masthead .sections-button {
-/       border: 1px solid #555;
-/       background: transparent;
-/     }
-/     .viewport-medium .masthead .sections-button {
-/       border: 1px solid #ccc;
-/       background: #fff;
-/     }
-/     .viewport-small .masthead.masthead-theme-standard .container {
-/       border-bottom: 1px solid #555;
-/     }
-/     .viewport-medium .masthead.masthead-theme-standard .container {
-/       border-bottom: 1px solid #ccc;
-/     }
-/     .viewport-small.section-upshot .nytint-upshot-nameplate {
-/       display: none;
-/     }
-/     .viewport-medium.section-upshot .nytint-upshot-nameplate {
-/       margin: auto;
-/       display: block;
-/       border-top: auto;
-/       border-bottom: auto;
-/     }
-/     .interactive-leadin.summary {
-/       font-family: nyt-franklin;
-/       font-weight: 300;
-/       font-size: 17px;
-/     }
-/     .viewport-medium .interactive-leadin.summary {
-/       font-size: 18px;
-/       margin-left: 0;
-/       text-align: left;
-/       width: 500px;
-/       margin-bottom: 23px;
-/     }
-/     .jitter-no {
-/       -webkit-animation: jitter-no 0.1s ease-in-out;
-/               animation: jitter-no 0.1s ease-in-out;
-/       -webkit-animation-iteration-count: 5;
-/               animation-iteration-count: 5;
-/     }
-/     @-webkit-keyframes jitter-no {
-/       0% {
-/         -webkit-transform: rotate(0deg);
-/                 transform: rotate(0deg);
-/       }
-/       25% {
-/         -webkit-transform: rotate(7deg);
-/                 transform: rotate(7deg);
-/       }
-/       50% {
-/         -webkit-transform: rotate(0deg);
-/                 transform: rotate(0deg);
-/         -webkit-filter: hue-rotate(-90deg);
-/                 filter: hue-rotate(-90deg);
-/       }
-/       75% {
-/         -webkit-transform: rotate(-7deg);
-/                 transform: rotate(-7deg);
-/       }
-/       100% {
-/         -webkit-transform: rotate(0deg);
-/                 transform: rotate(0deg);
-/       }
-/     }
-/     @keyframes jitter-no {
-/       0% {
-/         -webkit-transform: rotate(0deg);
-/                 transform: rotate(0deg);
-/       }
-/       25% {
-/         -webkit-transform: rotate(7deg);
-/                 transform: rotate(7deg);
-/       }
-/       50% {
-/         -webkit-transform: rotate(0deg);
-/                 transform: rotate(0deg);
-/         -webkit-filter: hue-rotate(-90deg);
-/                 filter: hue-rotate(-90deg);
-/       }
-/       75% {
-/         -webkit-transform: rotate(-7deg);
-/                 transform: rotate(-7deg);
-/       }
-/       100% {
-/         -webkit-transform: rotate(0deg);
-/                 transform: rotate(0deg);
-/       }
-/     }
-/     .jitter-yes {
-/       -webkit-animation: jitter-yes 1s ease-in-out;
-/               animation: jitter-yes 1s ease-in-out;
-/       -webkit-animation-iteration-count: 1;
-/               animation-iteration-count: 1;
-/     }
-/     @-webkit-keyframes jitter-yes {
-/       0% {
-/         -webkit-transform: translate(0px, 0px);
-/                 transform: translate(0px, 0px);
-/       }
-/       50% {
-/         -webkit-transform: translate(0px, 50px);
-/                 transform: translate(0px, 50px);
-/         -webkit-filter: hue-rotate(40deg);
-/                 filter: hue-rotate(40deg);
-/       }
-/       100% {
-/         -webkit-transform: translate(0px, 0px);
-/                 transform: translate(0px, 0px);
-/       }
-/     }
-/     @keyframes jitter-yes {
-/       0% {
-/         -webkit-transform: translate(0px, 0px);
-/                 transform: translate(0px, 0px);
-/       }
-/       50% {
-/         -webkit-transform: translate(0px, 50px);
-/                 transform: translate(0px, 50px);
-/         -webkit-filter: hue-rotate(40deg);
-/                 filter: hue-rotate(40deg);
-/       }
-/       100% {
-/         -webkit-transform: translate(0px, 0px);
-/                 transform: translate(0px, 0px);
-/       }
-/     }
-/     .viewport-small.mobile .kicker-container {
-/       display: none;
-/     }
-/     .viewport-medium-10 .story-heading.interactive-headline {
-/       text-align: left !important;
-/       margin-bottom: 10px !important;
-/       margin-top: 0;
-/       font-size: 30px !important;
-/       /* margin-top: 27px; */
-/       line-height: 1.1em !important;
-/     }
-/     .viewport-medium-20 .story-heading.interactive-headline {
-/       font-size: 42px !important;
-/     }
-/     .viewport-medium .byline-dateline {
-/       text-align: left;
-/     }
-/     .page-interactive-default .story.theme-main .story-header .story-meta {
-/       padding: 0 15px;
-/     }
-/     .viewport-medium.page-interactive-default .story.theme-main .story-header .story-meta {
-/       padding: 0;
-/       margin-bottom: 0;
-/     }
-/     .g-select-container {
-/       font-family: nyt-franklin;
-/       font-weight: 300;
-/       position: absolute;
-/       left: 100%;
-/       top: -200px;
-/       display: none;
-/     }
-/     .viewport-medium-31 .g-select-container {
-/       margin-left: 50px;
-/     }
-/     .viewport-large .g-select-container {
-/       margin-left: 75px;
-/     }
-/     .viewport-large-30 .g-select-container {
-/       margin-left: 150px;
-/     }
-/     .desktop.viewport-medium-31 .g-select-container {
-/       display: block;
-/     }
-/     .viewport-medium .g-select-container .g-select-wrap {
-/       position: absolute;
-/       top: 0;
-/       width: 400px;
-/     }
-/     .g-select-container .g-select-wrap.g-frozen {
-/       position: absolute;
-/     }
-/     .viewport-medium-10 .g-select-container .g-select-wrap.g-fixed {
-/       position: fixed;
-/       top: 275px;
-/       z-index: 50;
-/     }
-/     h4.section-header {
-/       display: none;
-/     }
-/     #g-graphic {
-/       margin-bottom: 500px;
-/     }
-/     .viewport-medium #g-graphic {
-/       margin-bottom: 20px;
-/     }
-/     #g-graphic .g-answer {
-/       font-weight: 900;
-/       font-size: 16px;
-/       line-height: 18px;
-/       display: inline-block;
-/       vertical-align: middle;
-/       width: 60px;
-/       height: 0px;
-/     }
-/     #g-graphic .g-example .g-answer {
-/       height: 20px;
-/       vertical-align: middle;
-/     }
-/     .viewport-medium #g-graphic .g-answer {
-/       width: auto;
-/       height: 0px;
-/       font-size: 18px;
-/       vertical-align: middle;
-/     }
-/     .g-yes {
-/       color: #bad40a;
-/     }
-/     .g-no {
-/       color: #bd0a75;
-/     }
-/     .byline::before {
-/       /*    display: inline-block;
-/         content: url('http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/dl-small.jpg');*/
-/       /*  outline: 2px solid red;
-/         overflow: hidden;
-/         height: 75px; width: 75px;
-/         transform: scale(.25);*/
-/     }
-/     .g-instructions {
-/       margin-bottom: 0px;
-/     }
-/     .g-yours {
-/       margin-top: 30px;
-/     }
-/     .g-result {
-/       margin-top: 40px;
-/     }
-/     #g-graphic {
-/       position: relative;
-/       font-family: nyt-franklin, sans;
-/       width: 100%;
-/     }
-/     .viewport-medium #g-graphic {
-/       max-width: 500px;
-/       margin-left: 0;
-/     }
-/     #g-graphic a {
-/       text-decoration: underline;
-/     }
-/     #g-graphic p {
-/       font-family: nyt-franklin, sans;
-/       font-size: 16px;
-/       font-weight: 300;
-/       line-height: 1.3em;
-/     }
-/     .viewport-medium #g-graphic p {
-/       font-size: 18px;
-/     }
-/     .viewport-medium #g-graphic p {
-/       /*font-size: 18px;*/
-/     }
-/     #g-graphic .g-result p {
-/       font-family: georgia, 'times new roman', times, serif;
-/       max-width: 540px;
-/       font-size: 17px;
-/       line-height: 1.4em;
-/     }
-/     .viewport-medium #g-graphic .g-result p {
-/       font-size: 19px;
-/       line-height: 27px;
-/     }
-/     input:focus {
-/       outline: 0 !important;
-/     }
-/     .nytint-callout-container .nytint-textinput,
-/     .g-fakeForm .nytint-textinput {
-/       padding: 6px;
-/       margin: 10px 0 3px 0;
-/       color: #666;
-/       font-size: 16px;
-/       border: 1px solid #ddd;
-/       border-radius: 4px;
-/       box-shadow: 0 0 0 0;
-/       /*background: transparent url(http://graphics8.nytimes.com/projects/2013/march-on-washington/i/textfield_bg_30x30.png) left top repeat*/
-/     }
-/     .nytint-callout-container .nytint-error-toast {
-/       display: none;
-/       position: fixed;
-/       text-align: center;
-/       color: #fff;
-/       font-weight: bold;
-/       max-width: 340px;
-/       margin: 0 auto;
-/       border: 1px solid #fff;
-/       border-radius: 6px;
-/       background: #333;
-/       top: 70px;
-/       z-index: 1000000050;
-/     }
-/     .nytint-callout-container .nytint-error-toast p {
-/       padding: 10px;
-/       margin-right: auto;
-/       margin: 0;
-/       font-family: helvetica, arial, sans-serif;
-/       font-size: 14px;
-/       color: #ffffff;
-/     }
-/     .nytint-callout-container .nytint-textinput.nytint-validation-warning {
-/       background-image: url(http://graphics8.nytimes.com/projects/2013/breast-cancer-stories/i/textfield_bruised_bg_30x30.png);
-/       border: 1px solid #ffb0b0;
-/     }
-/     /*.g-fakeForm .nytint-textinput:disabled, .g-sentence:disabled {
-/         background: none;
-/         color: black;
-/     }*/
-/     .g-fakeForm .g-example .g-numbers.g-yes-num-group .nytint-textinput:disabled {
-/       /*background: #dedede;*/
-/       color: #111 !important;
-/       -webkit-appearance: none;
-/       -webkit-text-fill-color: #111;
-/       -webkit-opacity: 1;
-/     }
-/     .nytint-textinput:disabled {
-/       color: #111 !important;
-/       -webkit-text-fill-color: #111 !important;
-/       -webkit-opacity: 1 !important;
-/     }
-/     .g-again {
-/       margin-top: 20px;
-/       margin-bottom: 20px;
-/     }
-/     .nytint-callout-container .nytint-submitresponses,
-/     .g-check,
-/     .g-submit {
-/       /*    margin: 30px auto;*/
-/       padding: 8px 20px;
-/       color: #fff;
-/       font-family: 'nyt-franklin', helvetica, arial, sans-serif;
-/       font-size: 15px;
-/       border: none;
-/       border-radius: 3px;
-/       /*background: #1e4173;*/
-/       background: #777;
-/       cursor: pointer;
-/     }
-/     .g-submit {
-/       width: calc(99% - 100px);
-/       margin-top: 12px;
-/     }
-/     .viewport-medium .g-submit {
-/       width: auto;
-/     }
-/     .nytint-callout-container .nytint-submitresponses:hover,
-/     .g-check:disabled {
-/       background-color: #bad40a;
-/     }
-/     .nytint-callout-container .nytint-submitresponses:disabled,
-/     .g-check:disabled {
-/       background-color: #ddd;
-/       cursor: default;
-/     }
-/     .nytint-callout-container .nytint-question {
-/       display: inline-block;
-/       margin: 30px 0 0;
-/       color: #1a1a1a;
-/       font-family: arial, helvetica, sans-serif;
-/       font-family: 'nyt-franklin', arial, helvetica, sans-serif;
-/       font-size: 15px;
-/       font-weight: normal;
-/       background-image: none;
-/       line-height: 20px;
-/     }
-/     .g-fakeForm input.nytint-textinput.g-num {
-/       width: calc(33% - 50px);
-/       margin-top: 3px;
-/     }
-/     .viewport-medium .g-fakeForm input.nytint-textinput.g-num {
-/       width: 105px;
-/       padding: 10px 0;
-/     }
-/     .nytint-callout-container input.nytint-textinput {
-/       width: 200px;
-/     }
-/     .viewport-medium .nytint-callout-container input.nytint-textinput {
-/       width: 100%;
-/       height: 60px;
-/     }
-/     .what_is_your_guess {
-/       display: none;
-/       padding-right: 10px;
-/     }
-/     .viewport-medium .what_is_your_guess {
-/       display: block;
-/     }
-/     .nytint-callout-container .nytint-formacist-description {
-/       margin: 2px 0 -6px 0;
-/       font-size: 12px;
-/       font-family: arial, helvetica, sans-serif;
-/     }
-/     .g-numbers {
-/       display: inline-block;
-/     }
-/     .g-check,
-/     .g-answer {
-/       margin-left: 10px;
-/     }
-/     .nytint-submitresponses {
-/       display: inline-block;
-/     }
-/     .g-justTellMe {
-/       line-height: 13px;
-/       font-size: 12px !important;
-/       padding-top: 10px;
-/       padding-top: 45px;
-/     }
-/     .viewport-medium .g-justTellMe {
-/       padding-top: 10px;
-/     }
-/     .g-justTellMe a {
-/       color: #bbb;
-/     }
-/     .g-yours .g-instructions {
-/       margin-bottom: 10px;
-/     }
-/     .nytint-callout-container .nytint-submitresponses.g-submit {
-/       color: #000;
-/       cursor: pointer;
-/       background: #dfdfdf;
-/       background: -webkit-linear-gradient(top, #f0f0f0, #e3e3e3 60%);
-/       background: linear-gradient(top, #f0f0f0, #e3e3e3 60%);
-/       border: 1px solid #999;
-/       border-bottom: solid 1px #666;
-/       border-radius: 4px;
-/       font: inherit;
-/       font-size: 13px;
-/       font-weight: 500;
-/       margin: 10px 0;
-/       padding: 8px 16px;
-/       width: 100%;
-/       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
-/       text-transform: uppercase;
-/     }
-/     .section-upshot.viewport-medium .nytint-upshot-nameplate {
-/       border-top: none;
-/       margin: 15px 0;
-/       border-bottom: 1px solid #000;
-/     }
-/     .section-upshot.viewport-medium .nytint-upshot-nameplate .upshot-nameplate-upshot {
-/       height: 30px;
-/     }
-/     .section-upshot.viewport-medium .nytint-upshot-nameplate .upshot-social {
-/       margin-top: 0;
-/     }
-/     .section-upshot.viewport-medium .story-meta .story-meta-footer {
-/       border-top: 0;
-/     }
-/     /*.interactive-leadin.summary {
-/         font-family: "nyt-franklin",arial,helvetica,sans-serif;
-/         font-weight: 300;
-/         font-size: 20px;
-/     }*/
-/     .section-upshot .interactive-byline {
-/       margin-bottom: 00px;
-/     }
-/     html #reactContainer {
-/       display: none !important;
-/     }
-/     .paragraph strong,
-/     .g-instruction-hed {
-/       font-family: nyt-franklin;
-/       font-weight: bold;
-/       font-size: 16px;
-/       margin-bottom: 10px;
-/     }
-/     .viewport-medium .paragraph strong,
-/     .viewport-medium .g-instruction-hed {
-/       font-size: 18px;
-/     }
-/     .g-instruction-hed.g-first-guess-already-done {
-/       font-weight: 300;
-/     }
-/     .g-next-probem-prompt {
-/       font-family: nyt-franklin;
-/       margin-bottom: 10px;
-/       font-weight: 300;
-/       font-size: 16px;
-/     }
-/     .viewport-medium .g-next-probem-prompt {
-/       font-size: 18px;
-/     }
-/     #preview-banner {
-/       display: none;
-/     }
-/     .g-example {
-/       margin-top: 22px;
-/     }
-/     .g-secod-instruction-hed {
-/       margin-top: 20px;
-/     }
-/     .g-desktop-note {
-/       display: none;
-/     }
-/     .viewport-medium .g-desktop-note {
-/       display: inline;
-/     }
-/     .g-mobile-note {
-/       display: inline;
-/     }
-/     .viewport-medium .g-mobile-note {
-/       display: none;
-/     }
-/     #g-graphic a {
-/       color: #326891;
-/     }
-/     /*KQ ADDITIONS*/
-/     .g-numbers .nytint-textinput {
-/       text-align: center;
-/     }
-/     #related-coverage {
-/       display: none;
-/     }
-/     .g-fakeForm .g-yes-num-group .nytint-textinput:disabled {
-/       background: #bad40a;
-/       color: #111;
-/     }
-/     .g-fakeForm .g-wrong-num-group .nytint-textinput:disabled {
-/       background: #ecbcc1;
-/       color: #111;
-/     }
-/     .g-submit:disabled {
-/       opacity: .5;
-/       pointer-events: none;
-/     }
-/     .g-thanks-note {
-/       font-style: italic;
-/       font-weight: 300;
-/       font-size: 16px;
-/       margin-top: 40px;
-/       color: #333;
-/       font-family: georgia;
-/       line-height: 1.3em;
-/     }
-/     .gg-innerwidth {
-/       position: absolute;
-/       top: 100;
-/       left: 100;
-/       color: #f0f;
-/       font-size: 100px;
-/       z-index: 100;
-/     }
-/     .g-button-warning {
-/       margin-top: 10px;
-/     }
-/     
-/     </style>
-/     
-/     
-/     
-/     <!-- <h2 class="gg-innerwidth"></h2> -->
-/     <div id="g-graphic">
-/     
-/         <div class="g-fixie g-illustration g-select-container">
-/             <div class="g-select-wrap">
-/                 <img src="http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/herman-22.png">
-/             </div>
-/         </div>
-/     
-/         <div class="g-fakeForm">
-/             <div>
-/                 <h4 class="g-instruction-hed">Here’s how it works:</h4>
-/                 <p class='g-instructions'>We’ve chosen a rule that some sequences of three numbers obey — and some do not. Your job is to guess what the rule is.</p> <p class='g-instructions'><br>We’ll start by telling you that the sequence 2, 4, 8 obeys the rule:</p>
-/                 <div class='g-example'>
-/                     <div class='g-numbers g-yes-num-group'>
-/                         <input type="tel" class="nytint-textinput g-num" value='2' disabled></input>
-/                         <input type="tel" class="nytint-textinput g-num" value='4' disabled></input>
-/                         <input type="tel" class="nytint-textinput g-num" value='8' disabled></input>
-/                         <p class='g-answer g-yes'>Obeys the rule</p>
-/                     </div>
-/                 </div>
-/             </div>
-/             <div class='g-yours'>
-/                 <p class='g-instructions'>Now it’s your turn. Enter a number sequence in the boxes below, and we’ll tell you whether it satisfies the rule or not. You can test as many sequences as you want.</p>
-/     
-/                 <h4 class="g-instruction-hed g-first-guess-hed g-secod-instruction-hed">Enter your first sequence here:</h4>
-/                 <div id='g-input'>
-/                     <div class='g-numbers'>
-/                         <input type="tel" autocomplete="off" class="nytint-textinput g-num g-first"></input>
-/                         <input type="tel" autocomplete="off" class="nytint-textinput g-num"></input>
-/                         <input type="tel" autocomplete="off" class="nytint-textinput g-num"></input>
-/                         <button type="button" class='g-check' disabled>Check</button>
-/                     </div>
-/                 </div>
-/             </div>
-/         </div>
-/         <div class="nytint-callout-container light-theme">
-/             <div id="nytint-callout-form">
-/                 <div>
-/     
-/                     <div class="g-bottom-button-container" style="display:none;">
-/                         <p class="g-instructions g-next-probem-prompt">When you think you know the rule,
-/     
-/                         <span class="g-desktop-note">describe it in words below and then submit your answer.</span> 
-/                         <span class="g-mobile-note">press this button.</span>
-/     
-/                         <strong class='g-button-warning'>Make sure you’re right; you won’t get a second chance.
-/                         </strong>
-/     
-/     
-/     
-/     
-/                         <div class="field text left what_is_your_guess">
-/                             <p class="nytint-formacist-description"></p>
-/                             <input name="guess" autocomplete="off" type="text" class="nytint-textinput g-sentence" data-charactercount="100" />
-/                         </div>
-/     
-/                         <button type="button" class="g-submit" disabled>I think I know it</button>
-/                 </div>
-/                 <p class='g-justTellMe'><a href="#">I don't want to play; just tell me the answer.</a></p>
-/             </div>
-/         </div>
-/     
-/         <div class="g-article-container">
-/             <div class = 'g-result g-noText' style="display:none;">
-/                 
-/                 <h4 data-tag="subhead" class="section-header section-header-2">Guess wrong</h4>
-/     
-/     <p class="paragraph paragraph-1">The answer was extremely basic. The rule was simply: <em>Each number must be larger than the one before it.</em> 5, 10, 20 satisfies the rule, as does 1, 2, 3 and -17, 14.6, 845. Children in kindergarten can understand this rule.</p>
-/     
-/     <p class="paragraph paragraph-2">But most people start off with the incorrect assumption that if we&#x2019;re asking them to solve a problem, it must be a somewhat tricky problem. They come up with a theory for what the answer is, like: <em>Each number is double the previous number.</em> And then they make a classic psychological mistake.</p>
-/     
-/     <p class="paragraph paragraph-3">They don&#x2019;t want to hear the answer &#x201C;no.&#x201D; In fact, it may not occur to them to ask a question that may yield a no.</p>
-/     
-/     <p class="paragraph paragraph-4">Remarkably, <customspan class="g-smallcaps">80</customspan> percent of people who have played this game so far have guessed the answer without first hearing a single no. <customspan class="g-custom-overwrite">A mere 7 </customspan> percent heard at least three nos &#x2014; even though there is no penalty or cost for being told no, save the small disappointment that every human being feels when hearing &#x201C;no.&#x201D;</p>
-/     
-/     <p class="paragraph paragraph-5">It&#x2019;s a lot more pleasant to hear &#x201C;yes.&#x201D; That, in a nutshell, is why so many people struggle with this problem.</p>
-/                 <p class="paragraph paragraph-6 section-header section-header-3"><strong>Confirmation Bias</strong></p>
-/     
-/     <p class="paragraph paragraph-7">This disappointment is a version of what psychologists and economists call confirmation bias. Not only are people more likely to believe information that fits their pre-existing beliefs, but they&#x2019;re also more likely to go looking for such information. This experiment is a version of one that the English psychologist Peter Cathcart Wason used in <a href="http://www.tandfonline.com/doi/abs/10.1080/17470216008416717">a seminal 1960 paper</a> on confirmation bias. (He used the even simpler 2, 4 and 6, rather than our 2, 4 and 8.)</p>
-/     
-/     <p class="paragraph paragraph-8">Most of us can quickly come up with other forms of confirmation bias &#x2014; and yet the examples we prefer tend to be, themselves, examples of confirmation bias. If you&#x2019;re politically liberal, maybe you&#x2019;re thinking of the way that many conservatives ignore <a href="http://www.nytimes.com/2015/04/28/science/new-study-links-weather-extremes-to-global-warming.html">strong</a> <a href="http://economix.blogs.nytimes.com/2010/06/15/getting-warmer/">evidence</a> of global warming and its consequences and <a href="http://blogs.telegraph.co.uk/news/tomchiversscience/100173661/climate-change-and-confirmation-bias-what-would-it-take-to-change-your-mind/">instead</a> glom onto weaker contrary evidence. Liberals are less likely to recall the many incorrect <a href="http://economix.blogs.nytimes.com/2013/09/30/lessons-from-a-famous-bet/">predictions</a> over the decades, often strident and often from the left, that population growth would create widespread food shortages. It hasn&#x2019;t.</p>
-/     
-/     <p class="paragraph paragraph-9">This puzzle exposes a particular kind of confirmation bias that bedevils companies, governments and people every day: the internal <a href="http://www.wsj.com/articles/SB10001424052748703811604574533680037778184">yes-man</a> (and yes-woman) tendency. We&#x2019;re much more likely to think about positive situations than negative ones, about why something might go right than wrong and about questions to which the answer is yes, not no.</p>
-/     
-/     <p class="paragraph paragraph-10">Sometimes, the reluctance to think negatively has nothing to do with political views or with a conscious fear of being told no. Often, people never even think about asking questions that would produce a negative answer when trying to solve a problem &#x2014; like this one. They instead restrict the universe of possible questions to those that might potentially yield a &#x201C;yes.&#x201D;</p>
-/                 <p class="paragraph paragraph-11 section-header section-header-4"><strong>Government Policy</strong></p>
-/     
-/     <p class="paragraph paragraph-12">In this exercise, the overwhelming majority of readers gravitated toward confirming their theory rather than trying to disprove it. A version of this same problem compromised the Obama administration&#x2019;s and Federal Reserve&#x2019;s (mostly successful) response to the financial crisis. They were <a href="http://www.nytimes.com/2012/09/30/sunday-review/obamanomics-a-counterhistory.html">too eager</a> to find &#x201C;green shoots&#x201D; of economic recovery that would suggest that the answer to the big question in their minds was, just as they hoped and believed: &#x201C;Yes, the crisis response is aggressive enough, and it&#x2019;s working.&#x201D; More damaging was the approach that President George W. Bush&#x2019;s administration, and others, took toward trying to determine whether Iraq had weapons of mass destruction a decade ago &#x2014; and how the Iraqi people would react to an invasion. Vice President Dick Cheney predicted in 2003, &#x201C;We will, in fact, be greeted as liberators.&#x201D;</p>
-/                 <p class="paragraph paragraph-13 section-header section-header-5"><strong>Corporate America</strong></p>
-/     
-/     <p class="paragraph paragraph-14">Corporate America is full of more examples. Executives of Detroit&#x2019;s Big Three didn&#x2019;t spend enough time brainstorming in the 1970s and 1980s about how their theory of the car market might be wrong. <a href="http://www.vanityfair.com/news/2010/04/wall-street-excerpt-201004">Wall Street</a> and <a href="http://www.nytimes.com/2010/01/06/business/economy/06leonhardt.html">the Fed</a> made the same mistake during the dot-com and housing bubbles. To pick an example close to home, newspapers didn&#x2019;t spend enough time challenging the assumption that classified advertisements would remain plentiful for decades.</p>
-/     
-/     <p class="paragraph paragraph-15">One of the best-selling business books in history &#x2014; about negotiation strategy &#x2014; is &#x201C;Getting to Yes.&#x201D; But the more important advice for us may instead be to go out of our way to get to no. When you want to test a theory, don&#x2019;t just look for examples that prove it. When you&#x2019;re considering a plan, think in detail about how it might go wrong.</p>
-/     
-/     <p class="paragraph paragraph-16">Some businesses have made this approach a formal part of their decision-making: Imagine our strategy has failed; what are the most likely reasons it did? As Jason Zweig <a title="Gone bust" href="http://www.wsj.com/articles/SB10001424052748703811604574533680037778184">has written</a> in The Wall Street Journal, &#x201C;Gary Klein, a psychologist at Applied Research Associates, of Albuquerque, N.M., recommends imagining that you have looked into a crystal ball and have seen that your investment has gone bust.&#x201D;</p>
-/     
-/     <p class="paragraph paragraph-17">When you seek to disprove your idea, you sometimes end up proving it &#x2014; and other times you can save yourself from making a big mistake. But you need to start by being willing to hear no. And even if you think that you are right, you need to make sure you&#x2019;re asking questions that might actually produce an answer of no. If you still need to work on this trait, don&#x2019;t worry: You&#x2019;re only human.</p>
-/     
-/                 <div class="g-thanks-note">Note: We’re grateful to <a href="http://som.yale.edu/barry-nalebuff">Barry Nalebuff</a>, a Yale professor and game-theory specialist, for suggesting this problem and helping put it in a larger context.</div>
-/             </div>
-/     <!--         <div class = 'g-result g-yesText' style='display:none;'>
-/                 <h4 data-tag="subhead" class="section-header section-header-6">Guess right</h4>
-/             </div> -->
-/     
-/     
-/     
-/         </div>
-/     </div>
+    <body>
+        
+        <style>
+        .lt-ie10 .messenger.suggestions {
+            display: block !important;
+            height: 50px;
+        }
+
+        .lt-ie10 .messenger.suggestions .message-bed {
+            background-color: #f8e9d2;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .lt-ie10 .messenger.suggestions .message-container {
+            padding: 11px 18px 11px 30px;
+        }
+
+        .lt-ie10 .messenger.suggestions .action-link {
+            font-family: "nyt-franklin", arial, helvetica, sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            color: #a81817;
+            text-transform: uppercase;
+        }
+
+        .lt-ie10 .messenger.suggestions .alert-icon {
+            background: url('http://i1.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+            width: 12px;
+            height: 12px;
+            display: inline-block;
+            margin-top: -2px;
+            float: none;
+        }
+
+        .lt-ie10 .masthead,
+        .lt-ie10 .navigation,
+        .lt-ie10 .comments-panel {
+            margin-top: 50px !important;
+        }
+
+        .lt-ie10 .ribbon {
+            margin-top: 97px !important;
+        }
+    </style>
+
+            <div class="user-tools">
+                <div id="sharetools-masthead" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-masthead  "
+       ======================================================
+    
+    THIS IS A GENERATED TEMPLATE FILE. DO NOT EDIT.
+    
+    ======================================================
+    
+    -->
+    <script type="text/javascript">
+        // var img = document.createElement('img');
+        // img.setAttribute('class', 'top-pencil');
+        // img.src= 'http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/connect-the-dots.jpg';
+    
+    
+            var h1 = document.querySelector('.interactive-headline');
+    
+    
+        // var h1 = document.querySelector('h1')
+    
+    
+    </script>
+    
+    <!-- this is generated from src/style.css -->
+    <style>
+    /* Center headlines for standalone and embedded interactives */
+    /*@import url("nyt5/centered-headline.css");*/
+    /* Fix spacing at top of story */
+    .has-top-ad .story.theme-interactive,
+    .has-ribbon .story.theme-interactive {
+      margin-top: 10px;
+    }
+    /* Get rid of border under intro and share tools on mobile */
+    .page-interactive-default .story.theme-main .story-header {
+      border-bottom: none;
+    }
+    /* Pad out the kicker/sharetool space */
+    .story.theme-interactive .story-meta .kicker {
+      margin-bottom: 22px;
+    }
+    .viewport-medium-10 .story.theme-interactive .story-meta .kicker {
+      margin-bottom: 24px;
+    }
+    /* Override the moving sharetools on mobile */
+    .story.theme-interactive .story-header .story-meta .kicker-container .sharetools {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      width: auto;
+      margin-top: -6px;
+      float: right;
+      clear: none;
+    }
+    /* Maintain the proper space with the section name and kicker next to share tools */
+    .story.theme-interactive .story-header .story-meta .interactive-kicker {
+      float: left;
+      width: 65%;
+      display: inline-block;
+    }
+    /* Gets rid of the extra space under the intro that puts too much space there in mobile and desktop */
+    .page-interactive-default .story.theme-main .story-header {
+      margin-bottom: 0;
+    }
+    .page-interactive-default .story.theme-main .story-header .story-meta {
+      margin-bottom: 10px;
+    }
+    /*Fixes styling on share tools at bottom of minimal interactives*/
+    .story.theme-minimal .sharetools.layout-horizontal {
+      width: auto;
+      margin-top: 11px;
+    }
+    .story.theme-minimal .sharetools.layout-horizontal .sharetool {
+      display: inline-block;
+      border-top: 0;
+    }
+    .story.theme-minimal .sharetools.layout-horizontal .sharetool:first-child a {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+    .story.theme-minimal .sharetools.layout-horizontal .sharetool a {
+      padding-left: 15px;
+      padding-right: 5px;
+      height: 20px;
+      border-left: 1px solid #e2e2e2;
+    }
+    .story.theme-minimal .sharetools.layout-horizontal .sharetool a:hover {
+      background-color: transparent;
+    }
+    /* uncomment to fix related content and footer layout on max_width: 720 pages */
+    /*
+    .related-coverage {
+      max-width: 720px;
+    }
+    
+    .viewport-medium-30 .page-footer nav ul,
+    .viewport-medium-50 .page-footer nav ul {
+      margin-left: 28px;
+    }
+    
+    .viewport-medium-30 .page-footer nav.last-nav {
+      float: none;
+    }
+    
+    .viewport-medium-30 .page-footer nav.last-nav ul {
+      margin-left: 239px;
+    }
+    */
+    /*@import url("cards.less");*/
+    .viewport-small.page-interactive-default .story.theme-main .story-header,
+    .viewport-small.page-interactive-app .story.theme-main .story-header {
+      background: #fdba12 url(http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/herman-mobile-25.png) no-repeat;
+      background-size: 45vw;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0px;
+      height: 100vh;
+      box-sizing: border-box;
+      padding-top: 51vh;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: -5;
+      background-position-x: 28vw;
+      background-position-y: 13vh;
+      text-align: center;
+    }
+    .viewport-medium.page-interactive-default .story.theme-main .story-header,
+    .viewport-medium.page-interactive-app .story.theme-main .story-header {
+      background: #fff;
+      background-size: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0px;
+      height: auto;
+      padding-top: 0;
+      position: relative;
+      z-index: auto;
+      text-align: left;
+    }
+    .viewport-small .interactive-graphic {
+      padding-top: 100vh;
+      margin-top: -40px;
+    }
+    .viewport-medium .interactive-graphic {
+      position: relative;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .viewport-small .masthead.masthead-theme-standard {
+      background-color: transparent;
+      border: none;
+    }
+    .viewport-medium .masthead.masthead-theme-standard {
+      background-color: #fff;
+      border: auto;
+    }
+    .viewport-small .masthead .sections-button {
+      border: 1px solid #555;
+      background: transparent;
+    }
+    .viewport-medium .masthead .sections-button {
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+    .viewport-small .masthead.masthead-theme-standard .container {
+      border-bottom: 1px solid #555;
+    }
+    .viewport-medium .masthead.masthead-theme-standard .container {
+      border-bottom: 1px solid #ccc;
+    }
+    .viewport-small.section-upshot .nytint-upshot-nameplate {
+      display: none;
+    }
+    .viewport-medium.section-upshot .nytint-upshot-nameplate {
+      margin: auto;
+      display: block;
+      border-top: auto;
+      border-bottom: auto;
+    }
+    .interactive-leadin.summary {
+      font-family: nyt-franklin;
+      font-weight: 300;
+      font-size: 17px;
+    }
+    .viewport-medium .interactive-leadin.summary {
+      font-size: 18px;
+      margin-left: 0;
+      text-align: left;
+      width: 500px;
+      margin-bottom: 23px;
+    }
+    .jitter-no {
+      -webkit-animation: jitter-no 0.1s ease-in-out;
+              animation: jitter-no 0.1s ease-in-out;
+      -webkit-animation-iteration-count: 5;
+              animation-iteration-count: 5;
+    }
+    @-webkit-keyframes jitter-no {
+      0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(7deg);
+                transform: rotate(7deg);
+      }
+      50% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        -webkit-filter: hue-rotate(-90deg);
+                filter: hue-rotate(-90deg);
+      }
+      75% {
+        -webkit-transform: rotate(-7deg);
+                transform: rotate(-7deg);
+      }
+      100% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+    }
+    @keyframes jitter-no {
+      0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(7deg);
+                transform: rotate(7deg);
+      }
+      50% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        -webkit-filter: hue-rotate(-90deg);
+                filter: hue-rotate(-90deg);
+      }
+      75% {
+        -webkit-transform: rotate(-7deg);
+                transform: rotate(-7deg);
+      }
+      100% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+    }
+    .jitter-yes {
+      -webkit-animation: jitter-yes 1s ease-in-out;
+              animation: jitter-yes 1s ease-in-out;
+      -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+    }
+    @-webkit-keyframes jitter-yes {
+      0% {
+        -webkit-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+      }
+      50% {
+        -webkit-transform: translate(0px, 50px);
+                transform: translate(0px, 50px);
+        -webkit-filter: hue-rotate(40deg);
+                filter: hue-rotate(40deg);
+      }
+      100% {
+        -webkit-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+      }
+    }
+    @keyframes jitter-yes {
+      0% {
+        -webkit-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+      }
+      50% {
+        -webkit-transform: translate(0px, 50px);
+                transform: translate(0px, 50px);
+        -webkit-filter: hue-rotate(40deg);
+                filter: hue-rotate(40deg);
+      }
+      100% {
+        -webkit-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+      }
+    }
+    .viewport-small.mobile .kicker-container {
+      display: none;
+    }
+    .viewport-medium-10 .story-heading.interactive-headline {
+      text-align: left !important;
+      margin-bottom: 10px !important;
+      margin-top: 0;
+      font-size: 30px !important;
+      /* margin-top: 27px; */
+      line-height: 1.1em !important;
+    }
+    .viewport-medium-20 .story-heading.interactive-headline {
+      font-size: 42px !important;
+    }
+    .viewport-medium .byline-dateline {
+      text-align: left;
+    }
+    .page-interactive-default .story.theme-main .story-header .story-meta {
+      padding: 0 15px;
+    }
+    .viewport-medium.page-interactive-default .story.theme-main .story-header .story-meta {
+      padding: 0;
+      margin-bottom: 0;
+    }
+    .g-select-container {
+      font-family: nyt-franklin;
+      font-weight: 300;
+      position: absolute;
+      left: 100%;
+      top: -200px;
+      display: none;
+    }
+    .viewport-medium-31 .g-select-container {
+      margin-left: 50px;
+    }
+    .viewport-large .g-select-container {
+      margin-left: 75px;
+    }
+    .viewport-large-30 .g-select-container {
+      margin-left: 150px;
+    }
+    .desktop.viewport-medium-31 .g-select-container {
+      display: block;
+    }
+    .viewport-medium .g-select-container .g-select-wrap {
+      position: absolute;
+      top: 0;
+      width: 400px;
+    }
+    .g-select-container .g-select-wrap.g-frozen {
+      position: absolute;
+    }
+    .viewport-medium-10 .g-select-container .g-select-wrap.g-fixed {
+      position: fixed;
+      top: 275px;
+      z-index: 50;
+    }
+    h4.section-header {
+      display: none;
+    }
+    #g-graphic {
+      margin-bottom: 500px;
+    }
+    .viewport-medium #g-graphic {
+      margin-bottom: 20px;
+    }
+    #g-graphic .g-answer {
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 18px;
+      display: inline-block;
+      vertical-align: middle;
+      width: 60px;
+      height: 0px;
+    }
+    #g-graphic .g-example .g-answer {
+      height: 20px;
+      vertical-align: middle;
+    }
+    .viewport-medium #g-graphic .g-answer {
+      width: auto;
+      height: 0px;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+    .g-yes {
+      color: #bad40a;
+    }
+    .g-no {
+      color: #bd0a75;
+    }
+    .byline::before {
+      /*    display: inline-block;
+        content: url('http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/dl-small.jpg');*/
+      /*  outline: 2px solid red;
+        overflow: hidden;
+        height: 75px; width: 75px;
+        transform: scale(.25);*/
+    }
+    .g-instructions {
+      margin-bottom: 0px;
+    }
+    .g-yours {
+      margin-top: 30px;
+    }
+    .g-result {
+      margin-top: 40px;
+    }
+    #g-graphic {
+      position: relative;
+      font-family: nyt-franklin, sans;
+      width: 100%;
+    }
+    .viewport-medium #g-graphic {
+      max-width: 500px;
+      margin-left: 0;
+    }
+    #g-graphic a {
+      text-decoration: underline;
+    }
+    #g-graphic p {
+      font-family: nyt-franklin, sans;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.3em;
+    }
+    .viewport-medium #g-graphic p {
+      font-size: 18px;
+    }
+    .viewport-medium #g-graphic p {
+      /*font-size: 18px;*/
+    }
+    #g-graphic .g-result p {
+      font-family: georgia, 'times new roman', times, serif;
+      max-width: 540px;
+      font-size: 17px;
+      line-height: 1.4em;
+    }
+    .viewport-medium #g-graphic .g-result p {
+      font-size: 19px;
+      line-height: 27px;
+    }
+    input:focus {
+      outline: 0 !important;
+    }
+    .nytint-callout-container .nytint-textinput,
+    .g-fakeForm .nytint-textinput {
+      padding: 6px;
+      margin: 10px 0 3px 0;
+      color: #666;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 0 0 0;
+      /*background: transparent url(http://graphics8.nytimes.com/projects/2013/march-on-washington/i/textfield_bg_30x30.png) left top repeat*/
+    }
+    .nytint-callout-container .nytint-error-toast {
+      display: none;
+      position: fixed;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      max-width: 340px;
+      margin: 0 auto;
+      border: 1px solid #fff;
+      border-radius: 6px;
+      background: #333;
+      top: 70px;
+      z-index: 1000000050;
+    }
+    .nytint-callout-container .nytint-error-toast p {
+      padding: 10px;
+      margin-right: auto;
+      margin: 0;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 14px;
+      color: #ffffff;
+    }
+    .nytint-callout-container .nytint-textinput.nytint-validation-warning {
+      background-image: url(http://graphics8.nytimes.com/projects/2013/breast-cancer-stories/i/textfield_bruised_bg_30x30.png);
+      border: 1px solid #ffb0b0;
+    }
+    /*.g-fakeForm .nytint-textinput:disabled, .g-sentence:disabled {
+        background: none;
+        color: black;
+    }*/
+    .g-fakeForm .g-example .g-numbers.g-yes-num-group .nytint-textinput:disabled {
+      /*background: #dedede;*/
+      color: #111 !important;
+      -webkit-appearance: none;
+      -webkit-text-fill-color: #111;
+      -webkit-opacity: 1;
+    }
+    .nytint-textinput:disabled {
+      color: #111 !important;
+      -webkit-text-fill-color: #111 !important;
+      -webkit-opacity: 1 !important;
+    }
+    .g-again {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .nytint-callout-container .nytint-submitresponses,
+    .g-check,
+    .g-submit {
+      /*    margin: 30px auto;*/
+      padding: 8px 20px;
+      color: #fff;
+      font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+      font-size: 15px;
+      border: none;
+      border-radius: 3px;
+      /*background: #1e4173;*/
+      background: #777;
+      cursor: pointer;
+    }
+    .g-submit {
+      width: calc(99% - 100px);
+      margin-top: 12px;
+    }
+    .viewport-medium .g-submit {
+      width: auto;
+    }
+    .nytint-callout-container .nytint-submitresponses:hover,
+    .g-check:disabled {
+      background-color: #bad40a;
+    }
+    .nytint-callout-container .nytint-submitresponses:disabled,
+    .g-check:disabled {
+      background-color: #ddd;
+      cursor: default;
+    }
+    .nytint-callout-container .nytint-question {
+      display: inline-block;
+      margin: 30px 0 0;
+      color: #1a1a1a;
+      font-family: arial, helvetica, sans-serif;
+      font-family: 'nyt-franklin', arial, helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: normal;
+      background-image: none;
+      line-height: 20px;
+    }
+    .g-fakeForm input.nytint-textinput.g-num {
+      width: calc(33% - 50px);
+      margin-top: 3px;
+    }
+    .viewport-medium .g-fakeForm input.nytint-textinput.g-num {
+      width: 105px;
+      padding: 10px 0;
+    }
+    .nytint-callout-container input.nytint-textinput {
+      width: 200px;
+    }
+    .viewport-medium .nytint-callout-container input.nytint-textinput {
+      width: 100%;
+      height: 60px;
+    }
+    .what_is_your_guess {
+      display: none;
+      padding-right: 10px;
+    }
+    .viewport-medium .what_is_your_guess {
+      display: block;
+    }
+    .nytint-callout-container .nytint-formacist-description {
+      margin: 2px 0 -6px 0;
+      font-size: 12px;
+      font-family: arial, helvetica, sans-serif;
+    }
+    .g-numbers {
+      display: inline-block;
+    }
+    .g-check,
+    .g-answer {
+      margin-left: 10px;
+    }
+    .nytint-submitresponses {
+      display: inline-block;
+    }
+    .g-justTellMe {
+      line-height: 13px;
+      font-size: 12px !important;
+      padding-top: 10px;
+      padding-top: 45px;
+    }
+    .viewport-medium .g-justTellMe {
+      padding-top: 10px;
+    }
+    .g-justTellMe a {
+      color: #bbb;
+    }
+    .g-yours .g-instructions {
+      margin-bottom: 10px;
+    }
+    .nytint-callout-container .nytint-submitresponses.g-submit {
+      color: #000;
+      cursor: pointer;
+      background: #dfdfdf;
+      background: -webkit-linear-gradient(top, #f0f0f0, #e3e3e3 60%);
+      background: linear-gradient(top, #f0f0f0, #e3e3e3 60%);
+      border: 1px solid #999;
+      border-bottom: solid 1px #666;
+      border-radius: 4px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      margin: 10px 0;
+      padding: 8px 16px;
+      width: 100%;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+      text-transform: uppercase;
+    }
+    .section-upshot.viewport-medium .nytint-upshot-nameplate {
+      border-top: none;
+      margin: 15px 0;
+      border-bottom: 1px solid #000;
+    }
+    .section-upshot.viewport-medium .nytint-upshot-nameplate .upshot-nameplate-upshot {
+      height: 30px;
+    }
+    .section-upshot.viewport-medium .nytint-upshot-nameplate .upshot-social {
+      margin-top: 0;
+    }
+    .section-upshot.viewport-medium .story-meta .story-meta-footer {
+      border-top: 0;
+    }
+    /*.interactive-leadin.summary {
+        font-family: "nyt-franklin",arial,helvetica,sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }*/
+    .section-upshot .interactive-byline {
+      margin-bottom: 00px;
+    }
+    html #reactContainer {
+      display: none !important;
+    }
+    .paragraph strong,
+    .g-instruction-hed {
+      font-family: nyt-franklin;
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .viewport-medium .paragraph strong,
+    .viewport-medium .g-instruction-hed {
+      font-size: 18px;
+    }
+    .g-instruction-hed.g-first-guess-already-done {
+      font-weight: 300;
+    }
+    .g-next-probem-prompt {
+      font-family: nyt-franklin;
+      margin-bottom: 10px;
+      font-weight: 300;
+      font-size: 16px;
+    }
+    .viewport-medium .g-next-probem-prompt {
+      font-size: 18px;
+    }
+    #preview-banner {
+      display: none;
+    }
+    .g-example {
+      margin-top: 22px;
+    }
+    .g-secod-instruction-hed {
+      margin-top: 20px;
+    }
+    .g-desktop-note {
+      display: none;
+    }
+    .viewport-medium .g-desktop-note {
+      display: inline;
+    }
+    .g-mobile-note {
+      display: inline;
+    }
+    .viewport-medium .g-mobile-note {
+      display: none;
+    }
+    #g-graphic a {
+      color: #326891;
+    }
+    /*KQ ADDITIONS*/
+    .g-numbers .nytint-textinput {
+      text-align: center;
+    }
+    #related-coverage {
+      display: none;
+    }
+    .g-fakeForm .g-yes-num-group .nytint-textinput:disabled {
+      background: #bad40a;
+      color: #111;
+    }
+    .g-fakeForm .g-wrong-num-group .nytint-textinput:disabled {
+      background: #ecbcc1;
+      color: #111;
+    }
+    .g-submit:disabled {
+      opacity: .5;
+      pointer-events: none;
+    }
+    .g-thanks-note {
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      margin-top: 40px;
+      color: #333;
+      font-family: georgia;
+      line-height: 1.3em;
+    }
+    .gg-innerwidth {
+      position: absolute;
+      top: 100;
+      left: 100;
+      color: #f0f;
+      font-size: 100px;
+      z-index: 100;
+    }
+    .g-button-warning {
+      margin-top: 10px;
+    }
+    
+    </style>
+    
+    
+    
+    <!-- <h2 class="gg-innerwidth"></h2> -->
+    <div id="g-graphic">
+    
+        <div class="g-fixie g-illustration g-select-container">
+            <div class="g-select-wrap">
+                <img src="http://graphics8.nytimes.com/newsgraphics/2015/06/16/puzzle/3c265b64cd66937d132444db8e9f7edb6a231f29/herman-22.png">
+            </div>
+        </div>
+    
+        <div class="g-fakeForm">
+            <div>
+                <h4 class="g-instruction-hed">Here’s how it works:</h4>
+                <p class='g-instructions'>We’ve chosen a rule that some sequences of three numbers obey — and some do not. Your job is to guess what the rule is.</p> <p class='g-instructions'><br>We’ll start by telling you that the sequence 2, 4, 8 obeys the rule:</p>
+                <div class='g-example'>
+                    <div class='g-numbers g-yes-num-group'>
+                        <input type="number" class="nytint-textinput g-num" value='2' disabled></input>
+                        <input type="number" class="nytint-textinput g-num" value='4' disabled></input>
+                        <input type="number" class="nytint-textinput g-num" value='8' disabled></input>
+                        <p class='g-answer g-yes'>Obeys the rule</p>
+                    </div>
+                </div>
+            </div>
+            <div class='g-yours'>
+                <p class='g-instructions'>Now it’s your turn. Enter a number sequence in the boxes below, and we’ll tell you whether it satisfies the rule or not. You can test as many sequences as you want.</p>
+    
+                <h4 class="g-instruction-hed g-first-guess-hed g-secod-instruction-hed">Enter your first sequence here:</h4>
+                <div id='g-input'>
+                    <div class='g-numbers latest'>
+                        <input type="number" autocomplete="off" class="nytint-textinput g-num g-first"></input>
+                        <input type="number" autocomplete="off" class="nytint-textinput g-num"></input>
+                        <input type="number" autocomplete="off" class="nytint-textinput g-num"></input>
+                        <button type="button" class='g-check' >Check</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div> YOUR ANSWERS </div>
+        <div class="answers"> </div>
+        <div class="nytint-callout-container light-theme">
+            <div id="nytint-callout-form">
+                <div>
+    
+                    <div class="g-bottom-button-container" style="display:none;">
+                        <p class="g-instructions g-next-probem-prompt">When you think you know the rule,
+    
+                        <span class="g-desktop-note">describe it in words below and then submit your answer.</span> 
+                        <span class="g-mobile-note">press this button.</span>
+    
+                        <strong class='g-button-warning'>Make sure you’re right; you won’t get a second chance.
+                        </strong>
+    
+    
+    
+    
+                        <div class="field text left what_is_your_guess">
+                            <p class="nytint-formacist-description"></p>
+                            <input name="guess" autocomplete="off" type="text" class="nytint-textinput g-sentence" data-charactercount="100" />
+                        </div>
+    
+                        <button type="button" class="g-submit" disabled>I think I know it</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="g-article-container">
+            <div class = 'g-result g-noText' style="display:none;">
+                
+                <h4 data-tag="subhead" class="section-header section-header-2">Guess wrong</h4>
+    
+    <p class="paragraph paragraph-1">The answer was extremely basic. The rule was simply: <em>Each number must be larger than the one before it.</em> 5, 10, 20 satisfies the rule, as does 1, 2, 3 and -17, 14.6, 845. Children in kindergarten can understand this rule.</p>
+    
+    <p class="paragraph paragraph-2">But most people start off with the incorrect assumption that if we&#x2019;re asking them to solve a problem, it must be a somewhat tricky problem. They come up with a theory for what the answer is, like: <em>Each number is double the previous number.</em> And then they make a classic psychological mistake.</p>
+    
+    <p class="paragraph paragraph-3">They don&#x2019;t want to hear the answer &#x201C;no.&#x201D; In fact, it may not occur to them to ask a question that may yield a no.</p>
+    
+    <p class="paragraph paragraph-4">Remarkably, <customspan class="g-smallcaps">80</customspan> percent of people who have played this game so far have guessed the answer without first hearing a single no. <customspan class="g-custom-overwrite">A mere 7 </customspan> percent heard at least three nos &#x2014; even though there is no penalty or cost for being told no, save the small disappointment that every human being feels when hearing &#x201C;no.&#x201D;</p>
+    
+    <p class="paragraph paragraph-5">It&#x2019;s a lot more pleasant to hear &#x201C;yes.&#x201D; That, in a nutshell, is why so many people struggle with this problem.</p>
+                <p class="paragraph paragraph-6 section-header section-header-3"><strong>Confirmation Bias</strong></p>
+    
+    <p class="paragraph paragraph-7">This disappointment is a version of what psychologists and economists call confirmation bias. Not only are people more likely to believe information that fits their pre-existing beliefs, but they&#x2019;re also more likely to go looking for such information. This experiment is a version of one that the English psychologist Peter Cathcart Wason used in <a href="http://www.tandfonline.com/doi/abs/10.1080/17470216008416717">a seminal 1960 paper</a> on confirmation bias. (He used the even simpler 2, 4 and 6, rather than our 2, 4 and 8.)</p>
+    
+    <p class="paragraph paragraph-8">Most of us can quickly come up with other forms of confirmation bias &#x2014; and yet the examples we prefer tend to be, themselves, examples of confirmation bias. If you&#x2019;re politically liberal, maybe you&#x2019;re thinking of the way that many conservatives ignore <a href="http://www.nytimes.com/2015/04/28/science/new-study-links-weather-extremes-to-global-warming.html">strong</a> <a href="http://economix.blogs.nytimes.com/2010/06/15/getting-warmer/">evidence</a> of global warming and its consequences and <a href="http://blogs.telegraph.co.uk/news/tomchiversscience/100173661/climate-change-and-confirmation-bias-what-would-it-take-to-change-your-mind/">instead</a> glom onto weaker contrary evidence. Liberals are less likely to recall the many incorrect <a href="http://economix.blogs.nytimes.com/2013/09/30/lessons-from-a-famous-bet/">predictions</a> over the decades, often strident and often from the left, that population growth would create widespread food shortages. It hasn&#x2019;t.</p>
+    
+    <p class="paragraph paragraph-9">This puzzle exposes a particular kind of confirmation bias that bedevils companies, governments and people every day: the internal <a href="http://www.wsj.com/articles/SB10001424052748703811604574533680037778184">yes-man</a> (and yes-woman) tendency. We&#x2019;re much more likely to think about positive situations than negative ones, about why something might go right than wrong and about questions to which the answer is yes, not no.</p>
+    
+    <p class="paragraph paragraph-10">Sometimes, the reluctance to think negatively has nothing to do with political views or with a conscious fear of being told no. Often, people never even think about asking questions that would produce a negative answer when trying to solve a problem &#x2014; like this one. They instead restrict the universe of possible questions to those that might potentially yield a &#x201C;yes.&#x201D;</p>
+                <p class="paragraph paragraph-11 section-header section-header-4"><strong>Government Policy</strong></p>
+    
+    <p class="paragraph paragraph-12">In this exercise, the overwhelming majority of readers gravitated toward confirming their theory rather than trying to disprove it. A version of this same problem compromised the Obama administration&#x2019;s and Federal Reserve&#x2019;s (mostly successful) response to the financial crisis. They were <a href="http://www.nytimes.com/2012/09/30/sunday-review/obamanomics-a-counterhistory.html">too eager</a> to find &#x201C;green shoots&#x201D; of economic recovery that would suggest that the answer to the big question in their minds was, just as they hoped and believed: &#x201C;Yes, the crisis response is aggressive enough, and it&#x2019;s working.&#x201D; More damaging was the approach that President George W. Bush&#x2019;s administration, and others, took toward trying to determine whether Iraq had weapons of mass destruction a decade ago &#x2014; and how the Iraqi people would react to an invasion. Vice President Dick Cheney predicted in 2003, &#x201C;We will, in fact, be greeted as liberators.&#x201D;</p>
+                <p class="paragraph paragraph-13 section-header section-header-5"><strong>Corporate America</strong></p>
+    
+    <p class="paragraph paragraph-14">Corporate America is full of more examples. Executives of Detroit&#x2019;s Big Three didn&#x2019;t spend enough time brainstorming in the 1970s and 1980s about how their theory of the car market might be wrong. <a href="http://www.vanityfair.com/news/2010/04/wall-street-excerpt-201004">Wall Street</a> and <a href="http://www.nytimes.com/2010/01/06/business/economy/06leonhardt.html">the Fed</a> made the same mistake during the dot-com and housing bubbles. To pick an example close to home, newspapers didn&#x2019;t spend enough time challenging the assumption that classified advertisements would remain plentiful for decades.</p>
+    
+    <p class="paragraph paragraph-15">One of the best-selling business books in history &#x2014; about negotiation strategy &#x2014; is &#x201C;Getting to Yes.&#x201D; But the more important advice for us may instead be to go out of our way to get to no. When you want to test a theory, don&#x2019;t just look for examples that prove it. When you&#x2019;re considering a plan, think in detail about how it might go wrong.</p>
+    
+    <p class="paragraph paragraph-16">Some businesses have made this approach a formal part of their decision-making: Imagine our strategy has failed; what are the most likely reasons it did? As Jason Zweig <a title="Gone bust" href="http://www.wsj.com/articles/SB10001424052748703811604574533680037778184">has written</a> in The Wall Street Journal, &#x201C;Gary Klein, a psychologist at Applied Research Associates, of Albuquerque, N.M., recommends imagining that you have looked into a crystal ball and have seen that your investment has gone bust.&#x201D;</p>
+    
+    <p class="paragraph paragraph-17">When you seek to disprove your idea, you sometimes end up proving it &#x2014; and other times you can save yourself from making a big mistake. But you need to start by being willing to hear no. And even if you think that you are right, you need to make sure you&#x2019;re asking questions that might actually produce an answer of no. If you still need to work on this trait, don&#x2019;t worry: You&#x2019;re only human.</p>
+    
+                <div class="g-thanks-note">Note: We’re grateful to <a href="http://som.yale.edu/barry-nalebuff">Barry Nalebuff</a>, a Yale professor and game-theory specialist, for suggesting this problem and helping put it in a larger context.</div>
+            </div>
+    <!--         <div class = 'g-result g-yesText' style='display:none;'>
+                <h4 data-tag="subhead" class="section-header section-header-6">Guess right</h4>
+            </div> -->
+    
+    
+    
+        </div>
+    </div>
+
+  div style = "margin-top: 30px"
+    a.surprise  href="#" = "JUST TELL ME"
+  div class="surprise hidden" =  "The numbers don't matter. Every 4th guess registers as wrong"
