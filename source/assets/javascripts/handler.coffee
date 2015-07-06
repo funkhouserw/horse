@@ -1,0 +1,3 @@
+  alert("before")
+$ ->
+  alert("after")
