@@ -1,0 +1,30 @@
+---
+title: photography
+---
+
+#background
+.midground_holder
+  #midground
+.foreground_holder
+  #foreground
+
+  .doge
+    h1 HorseBike photography
+    h3 Current Samples
+
+    .welcome
+      - data.project.photographs.each do |photo|
+        .photo
+          = link_to(photo["name"],photo["url"], :target => "blank" )
+
+    .spinner_wrapper
+      .horse
+        =image_tag 'headshot.jpg'
+      .bike
+        =image_tag 'wilsoneyeroll.gif'
+    .spinner_center
+      h1="&nbsp;"
+    .credits_wrapper
+      .credits 
+        ="&#169;2015 Wilson Funkhouser. For questions or purchasing inquiries (yeah, right!) please contact me at wilfunkhouser+horsebike@gmail.com  "
+
