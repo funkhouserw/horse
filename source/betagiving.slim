@@ -1,0 +1,30 @@
+---
+title: BetaGiving!
+---
+
+#background
+.midground_holder
+  #midground
+.foreground_holder
+  #foreground
+
+  .doge
+    .wrapper
+      .header
+        h1 Betagiving 2015 Photobooth
+        h3 by Horsebike Photography
+
+      .doge--welcome
+        p = "Standby! Photos will be uploaded here soon!"
+        p = "Please note that this is an abuse of my joke site, horse.bike. All bad styles, bad code, and hilarity are intentional. Don't judge me (Wilson) or Polymathic (Polymathic) by this site."
+        //- data.project.photographs.each do |photo|
+          .photo
+            = link_to(photo["name"],photo["url"], :target => "blank" )
+
+      .spinner_wrapper
+        .horse
+          =image_tag 'headshot.jpg'
+        .bike
+          =image_tag 'wilsoneyeroll.gif'
+      .spinner_center
+        h1="&nbsp;"
