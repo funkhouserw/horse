@@ -1,0 +1,21 @@
+base_url: "http://s3.horse.bike/"
+
+betagiving:
+  folder: "photobooth/betagiving/"
+  full: "full/"
+  thumb: "thumb/"
+  photographs:
+    -
+      url: "lol.jpg"
+    -
+      url: "lol.jpg"
+    -
+      url: "lol.jpg"
+    -
+      url: "lol.jpg"
+    -
+      url: "lol.jpg"
+    -
+      url: "lol.jpg"
+    -
+      url: "lol.jpg"

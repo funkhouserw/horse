@@ -15,7 +15,14 @@ title: BetaGiving!
         h3 by Horsebike Photography
 
       .doge--welcome
-        p = "Standby! Photos will be uploaded here soon!"
+        - full_url = "#{data.photobooth.base_url}#{data.photobooth.betagiving.folder}#{data.photobooth.betagiving.full}"
+        - thumb_url = "#{data.photobooth.base_url}#{data.photobooth.betagiving.folder}#{data.photobooth.betagiving.thumb}"
+        .photographs
+          - data.photobooth.betagiving.photographs.each do |photo|
+            a href="#{full_url+photo.url}"
+              .photo style="background-image:#{thumb_url+photo.url}"
+
+
         p = "Please note that this is an abuse of my joke site, horse.bike. All bad styles, bad code, and hilarity are intentional. Don't judge me (Wilson) or Polymathic (Polymathic) by this site."
         //- data.project.photographs.each do |photo|
           .photo
