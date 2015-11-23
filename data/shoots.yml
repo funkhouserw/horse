@@ -3,9 +3,287 @@ base_url: "http://s3.horse.bike/"
 betagiving:
   folder: "shoots/betagiving/"
   full: "full/"
-  thumb: "thumb/"
+  thumb: "thumbs/"
   photographs:
     -
-     url: "DSC_7697.jpg"
-    -     
-     url: "DSC_7699.jpg"
+      url: "DSC_7727.jpg"
+    -
+      url: "DSC_7744.jpg"
+    -
+      url: "DSC_7751.jpg"
+    -
+      url: "DSC_7754.jpg"
+    -
+      url: "DSC_7757.jpg"
+    -
+      url: "DSC_7761.jpg"
+    -
+      url: "DSC_7762.jpg"
+    -
+      url: "DSC_7763.jpg"
+    -
+      url: "DSC_7765.jpg"
+    -
+      url: "DSC_7766.jpg"
+    -
+      url: "DSC_7768.jpg"
+    -
+      url: "DSC_7772.jpg"
+    -
+      url: "DSC_7788.jpg"
+    -
+      url: "DSC_7791.jpg"
+    -
+      url: "DSC_7794.jpg"
+    -
+      url: "DSC_7801.jpg"
+    -
+      url: "DSC_7817.jpg"
+    -
+      url: "DSC_7818.jpg"
+    -
+      url: "DSC_7822.jpg"
+    -
+      url: "DSC_7823.jpg"
+    -
+      url: "DSC_7833.jpg"
+    -
+      url: "DSC_7853.jpg"
+    -
+      url: "DSC_7863.jpg"
+    -
+      url: "DSC_7864.jpg"
+    -
+      url: "DSC_7867.jpg"
+    -
+      url: "DSC_7877.jpg"
+    -
+      url: "DSC_7886.jpg"
+    -
+      url: "DSC_7893.jpg"
+    -
+      url: "DSC_7904.jpg"
+    -
+      url: "DSC_7910.jpg"
+    -
+      url: "DSC_7921.jpg"
+    -
+      url: "DSC_7922.jpg"
+    -
+      url: "DSC_7923.jpg"
+    -
+      url: "DSC_7925.jpg"
+    -
+      url: "DSC_7930.jpg"
+    -
+      url: "DSC_7935.jpg"
+    -
+      url: "DSC_7936.jpg"
+    -
+      url: "DSC_7938.jpg"
+    -
+      url: "DSC_7941.jpg"
+    -
+      url: "DSC_7945.jpg"
+    -
+      url: "DSC_7947.jpg"
+    -
+      url: "DSC_7960.jpg"
+    -
+      url: "DSC_7961.jpg"
+    -
+      url: "DSC_7962.jpg"
+    -
+      url: "DSC_7963.jpg"
+    -
+      url: "DSC_7972.jpg"
+    -
+      url: "DSC_7985.jpg"
+    -
+      url: "DSC_7986.jpg"
+    -
+      url: "DSC_7988.jpg"
+    -
+      url: "DSC_7993.jpg"
+    -
+      url: "DSC_7994.jpg"
+    -
+      url: "DSC_7995.jpg"
+    -
+      url: "DSC_8000.jpg"
+    -
+      url: "DSC_8001.jpg"
+    -
+      url: "DSC_8007.jpg"
+    -
+      url: "DSC_8015.jpg"
+    -
+      url: "DSC_8016.jpg"
+    -
+      url: "DSC_8020.jpg"
+    -
+      url: "DSC_8025.jpg"
+    -
+      url: "DSC_8028.jpg"
+    -
+      url: "DSC_8029.jpg"
+    -
+      url: "DSC_8036.jpg"
+    -
+      url: "DSC_8037.jpg"
+    -
+      url: "DSC_8039.jpg"
+    -
+      url: "DSC_8041.jpg"
+    -
+      url: "DSC_8042.jpg"
+    -
+      url: "DSC_8044.jpg"
+    -
+      url: "DSC_8048.jpg"
+    -
+      url: "DSC_8056.jpg"
+    -
+      url: "DSC_8058.jpg"
+    -
+      url: "DSC_8063.jpg"
+    -
+      url: "DSC_8064.jpg"
+    -
+      url: "DSC_8067.jpg"
+    -
+      url: "DSC_8074.jpg"
+    -
+      url: "DSC_8082.jpg"
+    -
+      url: "DSC_8088.jpg"
+    -
+      url: "DSC_8094.jpg"
+    -
+      url: "DSC_8099.jpg"
+    -
+      url: "DSC_8103.jpg"
+    -
+      url: "DSC_8105.jpg"
+    -
+      url: "DSC_8106.jpg"
+    -
+      url: "DSC_8110.jpg"
+    -
+      url: "DSC_8123.jpg"
+    -
+      url: "DSC_8124.jpg"
+    -
+      url: "DSC_8130.jpg"
+    -
+      url: "DSC_8134.jpg"
+    -
+      url: "DSC_8137.jpg"
+    -
+      url: "DSC_8138.jpg"
+    -
+      url: "DSC_8143.jpg"
+    -
+      url: "DSC_8144.jpg"
+    -
+      url: "DSC_8147.jpg"
+    -
+      url: "DSC_8158.jpg"
+    -
+      url: "DSC_8161.jpg"
+    -
+      url: "DSC_8175.jpg"
+    -
+      url: "DSC_8185.jpg"
+    -
+      url: "DSC_8195.jpg"
+    -
+      url: "DSC_8198.jpg"
+    -
+      url: "DSC_8199.jpg"
+    -
+      url: "DSC_8203.jpg"
+    -
+      url: "DSC_8206.jpg"
+    -
+      url: "DSC_8207.jpg"
+    -
+      url: "DSC_8215.jpg"
+    -
+      url: "DSC_8218.jpg"
+    -
+      url: "DSC_8229.jpg"
+    -
+      url: "DSC_8233.jpg"
+    -
+      url: "DSC_8234.jpg"
+    -
+      url: "DSC_8237.jpg"
+    -
+      url: "DSC_8238.jpg"
+    -
+      url: "DSC_8240.jpg"
+    -
+      url: "DSC_8241.jpg"
+    -
+      url: "DSC_8246.jpg"
+    -
+      url: "DSC_8247.jpg"
+    -
+      url: "DSC_8250.jpg"
+    -
+      url: "DSC_8251.jpg"
+    -
+      url: "DSC_8254.jpg"
+    -
+      url: "DSC_8255.jpg"
+    -
+      url: "DSC_8256.jpg"
+    -
+      url: "DSC_8257.jpg"
+    -
+      url: "DSC_8258.jpg"
+    -
+      url: "DSC_8259.jpg"
+    -
+      url: "DSC_8262.jpg"
+    -
+      url: "DSC_8267.jpg"
+    -
+      url: "DSC_8268.jpg"
+    -
+      url: "DSC_8269.jpg"
+    -
+      url: "DSC_8270.jpg"
+    -
+      url: "DSC_8271.jpg"
+    -
+      url: "DSC_8274.jpg"
+    -
+      url: "DSC_8280.jpg"
+    -
+      url: "DSC_8281.jpg"
+    -
+      url: "DSC_8282.jpg"
+    -
+      url: "DSC_8283.jpg"
+    -
+      url: "DSC_8288.jpg"
+    -
+      url: "DSC_8290.jpg"
+    -
+      url: "DSC_8300.jpg"
+    -
+      url: "DSC_8302.jpg"
+    -
+      url: "DSC_8304.jpg"
+    -
+      url: "DSC_8305.jpg"
+    -
+      url: "DSC_8307.jpg"
+    -
+      url: "DSC_8309.jpg"
+    -
+      url: "DSC_8314.jpg"
+    -
+      url: "DSC_8316.jpg"
