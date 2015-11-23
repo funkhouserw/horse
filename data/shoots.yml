@@ -10,8 +10,6 @@ betagiving:
     -
       url: "DSC_7744.jpg"
     -
-      url: "DSC_7751.jpg"
-    -
       url: "DSC_7754.jpg"
     -
       url: "DSC_7757.jpg"
@@ -45,8 +43,8 @@ betagiving:
       url: "DSC_7822.jpg"
     -
       url: "DSC_7823.jpg"
-    -
-      url: "DSC_7833.jpg"
+    #-
+    #  url: "DSC_7833.jpg"
     -
       url: "DSC_7853.jpg"
     -
@@ -67,12 +65,12 @@ betagiving:
       url: "DSC_7910.jpg"
     -
       url: "DSC_7921.jpg"
-    -
-      url: "DSC_7922.jpg"
+    # -
+    # url: "DSC_7922.jpg"
     -
       url: "DSC_7923.jpg"
-    -
-      url: "DSC_7925.jpg"
+    #-
+    #  url: "DSC_7925.jpg"
     -
       url: "DSC_7930.jpg"
     -
@@ -101,8 +99,8 @@ betagiving:
       url: "DSC_7985.jpg"
     -
       url: "DSC_7986.jpg"
-    -
-      url: "DSC_7988.jpg"
+    #-
+    #url: "DSC_7988.jpg"
     -
       url: "DSC_7993.jpg"
     -
@@ -127,8 +125,8 @@ betagiving:
       url: "DSC_8028.jpg"
     -
       url: "DSC_8029.jpg"
-    -
-      url: "DSC_8036.jpg"
+    #-
+    #  url: "DSC_8036.jpg"
     -
       url: "DSC_8037.jpg"
     -
@@ -141,8 +139,8 @@ betagiving:
       url: "DSC_8044.jpg"
     -
       url: "DSC_8048.jpg"
-    -
-      url: "DSC_8056.jpg"
+    #-
+    #  url: "DSC_8056.jpg"
     -
       url: "DSC_8058.jpg"
     -
@@ -229,8 +227,8 @@ betagiving:
       url: "DSC_8246.jpg"
     -
       url: "DSC_8247.jpg"
-    -
-      url: "DSC_8250.jpg"
+    #-
+    #  url: "DSC_8250.jpg"
     -
       url: "DSC_8251.jpg"
     -
@@ -247,22 +245,22 @@ betagiving:
       url: "DSC_8259.jpg"
     -
       url: "DSC_8262.jpg"
-    -
-      url: "DSC_8267.jpg"
-    -
-      url: "DSC_8268.jpg"
-    -
-      url: "DSC_8269.jpg"
+    # -
+    #  url: "DSC_8267.jpg"
+    # -
+    #   url: "DSC_8268.jpg"
+    # -
+    #   url: "DSC_8269.jpg"
     -
       url: "DSC_8270.jpg"
-    -
-      url: "DSC_8271.jpg"
+    #-
+    #  url: "DSC_8271.jpg"
     -
       url: "DSC_8274.jpg"
-    -
-      url: "DSC_8280.jpg"
-    -
-      url: "DSC_8281.jpg"
+    #-
+    #  url: "DSC_8280.jpg"
+    #-
+    #  url: "DSC_8281.jpg"
     -
       url: "DSC_8282.jpg"
     -
@@ -279,8 +277,8 @@ betagiving:
       url: "DSC_8304.jpg"
     -
       url: "DSC_8305.jpg"
-    -
-      url: "DSC_8307.jpg"
+    #-
+    # url: "DSC_8307.jpg"
     -
       url: "DSC_8309.jpg"
     -
