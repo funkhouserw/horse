@@ -1,7 +1,3 @@
----
-title: BetaGiving!
----
-
 #background
 .midground_holder
   #midground
@@ -11,17 +7,17 @@ title: BetaGiving!
   .doge.betagiving
     .wrapper
       .header
-        h1 Betagiving 2015 Photobooth
+        h1 Betagiving 2015 Photographs
         h3
           = "by Horsebike Photography (wilfunkhouser"
           = image_tag 'dotcom.png'
           = ")"
 
       .booth_wrapper
-        - full_url = "#{data.photobooth.base_url}#{data.photobooth.betagiving.folder}#{data.photobooth.betagiving.full}"
-        - thumb_url = "#{data.photobooth.base_url}#{data.photobooth.betagiving.folder}#{data.photobooth.betagiving.thumb}"
+        - full_url = "#{data.shoots.base_url}#{data.shoots.betagiving.folder}#{data.shoots.betagiving.full}"
+        - thumb_url = "#{data.shoots.base_url}#{data.shoots.betagiving.folder}#{data.shoots.betagiving.thumb}"
         .photographs
-          - data.photobooth.betagiving.photographs.each do |photo|
+          - data.shoots.betagiving.photographs.each do |photo|
             .photo
               a href="#{full_url+photo.url}"
                   img src="#{thumb_url+photo.url}"

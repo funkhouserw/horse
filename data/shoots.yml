@@ -1,0 +1,11 @@
+base_url: "http://s3.horse.bike/"
+
+betagiving:
+  folder: "shoots/betagiving/"
+  full: "full/"
+  thumb: "thumb/"
+  photographs:
+    -
+     url: "DSC_7697.jpg"
+    -     
+     url: "DSC_7699.jpg"
