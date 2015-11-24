@@ -35,8 +35,8 @@ betagiving:
       url: "DSC_7794.jpg"
     -
       url: "DSC_7801.jpg"
-    -
-      url: "DSC_7817.jpg"
+    #-
+    #url: "DSC_7817.jpg"
     -
       url: "DSC_7818.jpg"
     -
@@ -141,8 +141,8 @@ betagiving:
       url: "DSC_8048.jpg"
     #-
     #  url: "DSC_8056.jpg"
-    -
-      url: "DSC_8058.jpg"
+    #-
+    #  url: "DSC_8058.jpg"
     -
       url: "DSC_8063.jpg"
     -
@@ -179,8 +179,8 @@ betagiving:
       url: "DSC_8137.jpg"
     -
       url: "DSC_8138.jpg"
-    -
-      url: "DSC_8143.jpg"
+        #-
+        #  url: "DSC_8143.jpg"
     -
       url: "DSC_8144.jpg"
     -
@@ -195,8 +195,8 @@ betagiving:
       url: "DSC_8185.jpg"
     -
       url: "DSC_8195.jpg"
-    -
-      url: "DSC_8198.jpg"
+        #-
+        #  url: "DSC_8198.jpg"
     -
       url: "DSC_8199.jpg"
     -
