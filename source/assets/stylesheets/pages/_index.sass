@@ -232,21 +232,26 @@
     100%
       -moz-transform: rotate(-1deg)
 
-  .glitch_title
+  .menu--wrapper
     position: absolute
     top: 100px
     right: 40px
     z-index: 99999
     background-color: black
-    .glitch
+    .welcome
       color: white
-      font-size: 100px
       position: relative
-      width: 600px
-      margin: 0 auto
-      &.small
-        font-size: 40px
-        margin-top: 30px
+      margin-top: 10px
+    .glitch_title
+      .glitch
+        color: white
+        font-size: 100px
+        position: relative
+        width: 600px
+        margin: 0 auto
+        &.small
+          font-size: 40px
+          margin-top: 30px
   @-webkit-keyframes noise-anim
     $steps: 20
     @for $i from 0 through $steps
