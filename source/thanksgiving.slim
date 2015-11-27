@@ -1,6 +1,3 @@
----
-title: BetaGiving!
----
 
 #background
 .midground_holder
@@ -11,17 +8,18 @@ title: BetaGiving!
   .doge.betagiving
     .wrapper
       .header
-        h1 Betagiving 2015 Photobooth
+        h1 Thanksgiving 2015 Photographs
         h3
           = "by Horsebike Photography (wilfunkhouser"
           = image_tag 'dotcom.png'
           = ")"
+        p = "click for hi-res"
 
       .booth_wrapper
-        - full_url = "#{data.photobooth.base_url}#{data.photobooth.betagiving.folder}#{data.photobooth.betagiving.full}"
-        - thumb_url = "#{data.photobooth.base_url}#{data.photobooth.betagiving.folder}#{data.photobooth.betagiving.thumb}"
+        - full_url = "#{data.shoots.base_url}#{data.shoots.thanksgiving.folder}#{data.shoots.betagiving.full}"
+        - thumb_url = "#{data.shoots.base_url}#{data.shoots.thanksgiving.folder}#{data.shoots.betagiving.thumb}"
         .photographs
-          - data.photobooth.betagiving.photographs.each do |photo|
+          - data.shoots.thanksgiving.photographs.each do |photo|
             .photo
               a href="#{full_url+photo.url}"
                   img src="#{thumb_url+photo.url}"
@@ -32,10 +30,4 @@ title: BetaGiving!
           .photo
             = link_to(photo["name"],photo["url"], :target => "blank" )
 
-      .spinner_wrapper
-        .horse
-          =image_tag 'headshot.jpg'
-        .bike
-          =image_tag 'wilsoneyeroll.gif'
-      .spinner_center
-        h1="&nbsp;"
+

@@ -6,6 +6,44 @@ betagiving:
   thumb: "thumbs/"
   photographs:
     -
+     url: "DSC_7697.jpg"
+    -     
+     url: "DSC_7699.jpg"
+    -
+     url: "DSC_7711.jpg"
+    -
+     url: "DSC_7722.jpg"
+    -
+     url: "DSC_7774.jpg"
+    -
+     url: "DSC_7776.jpg"
+    -
+     url: "DSC_7847.jpg"
+    -
+     url: "DSC_8152.jpg"
+    -
+     url: "DSC_8155.jpg"
+    -
+     url: "DSC_8178.jpg"
+    -
+     url: "DSC_8208.jpg"
+    -
+     url: "DSC_8209.jpg"
+    -
+     url: "DSC_8212.jpg"
+    -
+     url: "DSC_8327.jpg"
+    -
+     url: "DSC_8337.jpg"
+    -
+     url: "DSC_8338.jpg"
+    -
+     url: "DSC_8342.jpg"
+    -
+     url: "DSC_8346.jpg"
+    -
+     url: "DSC_8358.jpg"
+    -
       url: "DSC_7727.jpg"
     -
       url: "DSC_7744.jpg"
@@ -285,3 +323,224 @@ betagiving:
       url: "DSC_8314.jpg"
     -
       url: "DSC_8316.jpg"
+
+
+
+thanksgiving:
+  folder: "shoots/thanksgiving/"
+  full: "full/"
+  thumb: "thumbs/"
+  photographs:
+    -
+      url: "DSC_8381.jpg"
+    -
+      url: "DSC_8384.jpg"
+    -
+      url: "DSC_8385.jpg"
+    -
+      url: "DSC_8386.jpg"
+    -
+      url: "DSC_8387.jpg"
+    -
+      url: "DSC_8388.jpg"
+    -
+      url: "DSC_8389.jpg"
+    -
+      url: "DSC_8390.jpg"
+    -
+      url: "DSC_8391.jpg"
+    -
+      url: "DSC_8392.jpg"
+    -
+      url: "DSC_8393.jpg"
+    -
+      url: "DSC_8396.jpg"
+    -
+      url: "DSC_8397.jpg"
+    -
+      url: "DSC_8398.jpg"
+    -
+      url: "DSC_8400.jpg"
+    -
+      url: "DSC_8401.jpg"
+    -
+      url: "DSC_8404.jpg"
+    -
+      url: "DSC_8406.jpg"
+    -
+      url: "DSC_8407.jpg"
+    -
+      url: "DSC_8408.jpg"
+    -
+      url: "DSC_8409.jpg"
+    -
+      url: "DSC_8410.jpg"
+    -
+      url: "DSC_8411.jpg"
+    -
+      url: "DSC_8412.jpg"
+    -
+      url: "DSC_8414.jpg"
+    -
+      url: "DSC_8417.jpg"
+    -
+      url: "DSC_8420.jpg"
+    -
+      url: "DSC_8421.jpg"
+    -
+      url: "DSC_8422.jpg"
+    -
+      url: "DSC_8424.jpg"
+    -
+      url: "DSC_8426.jpg"
+    -
+      url: "DSC_8428.jpg"
+    -
+      url: "DSC_8435.jpg"
+    -
+      url: "DSC_8436.jpg"
+    -
+      url: "DSC_8438.jpg"
+    -
+      url: "DSC_8440.jpg"
+    -
+      url: "DSC_8441.jpg"
+    -
+      url: "DSC_8442.jpg"
+    -
+      url: "DSC_8443.jpg"
+    -
+      url: "DSC_8444.jpg"
+    -
+      url: "DSC_8446.jpg"
+    -
+      url: "DSC_8447.jpg"
+    -
+      url: "DSC_8451.jpg"
+    -
+      url: "DSC_8454.jpg"
+    -
+      url: "DSC_8455.jpg"
+    -
+      url: "DSC_8456.jpg"
+    -
+      url: "DSC_8460.jpg"
+    -
+      url: "DSC_8461.jpg"
+    -
+      url: "DSC_8462.jpg"
+    -
+      url: "DSC_8463.jpg"
+    -
+      url: "DSC_8467.jpg"
+    -
+      url: "DSC_8470.jpg"
+    -
+      url: "DSC_8477.jpg"
+    -
+      url: "DSC_8481.jpg"
+    -
+      url: "DSC_8482.jpg"
+    -
+      url: "DSC_8483.jpg"
+    -
+      url: "DSC_8484.jpg"
+    -
+      url: "DSC_8485.jpg"
+    -
+      url: "DSC_8487.jpg"
+    -
+      url: "DSC_8489.jpg"
+    -
+      url: "DSC_8490.jpg"
+    -
+      url: "DSC_8493.jpg"
+    -
+      url: "DSC_8494.jpg"
+    -
+      url: "DSC_8497.jpg"
+    -
+      url: "DSC_8501.jpg"
+    -
+      url: "DSC_8502.jpg"
+    -
+      url: "DSC_8503.jpg"
+    -
+      url: "DSC_8504.jpg"
+    -
+      url: "DSC_8505.jpg"
+    -
+      url: "DSC_8506.jpg"
+    -
+      url: "DSC_8507.jpg"
+    -
+      url: "DSC_8508.jpg"
+    -
+      url: "DSC_8509.jpg"
+    -
+      url: "DSC_8510.jpg"
+    -
+      url: "DSC_8511.jpg"
+    -
+      url: "DSC_8512.jpg"
+    -
+      url: "DSC_8513.jpg"
+    -
+      url: "DSC_8514.jpg"
+    -
+      url: "DSC_8515.jpg"
+    -
+      url: "DSC_8516.jpg"
+    -
+      url: "DSC_8517.jpg"
+    -
+      url: "DSC_8518.jpg"
+    -
+      url: "DSC_8519.jpg"
+    -
+      url: "DSC_8520.jpg"
+    -
+      url: "DSC_8521.jpg"
+    -
+      url: "DSC_8532.jpg"
+    -
+      url: "DSC_8533.jpg"
+    -
+      url: "DSC_8534.jpg"
+    -
+      url: "DSC_8535.jpg"
+    -
+      url: "DSC_8540.jpg"
+    -
+      url: "DSC_8541.jpg"
+    -
+      url: "DSC_8544.jpg"
+    -
+      url: "DSC_8545.jpg"
+    -
+      url: "DSC_8546.jpg"
+    -
+      url: "DSC_8547.jpg"
+    -
+      url: "DSC_8548.jpg"
+    -
+      url: "DSC_8552.jpg"
+    -
+      url: "DSC_8565.jpg"
+    -
+      url: "DSC_8572.jpg"
+    -
+      url: "DSC_8574.jpg"
+    -
+      url: "DSC_8578.jpg"
+    -
+      url: "DSC_8579.jpg"
+    -
+      url: "DSC_8581.jpg"
+    -
+      url: "DSC_8582.jpg"
+    -
+      url: "DSC_8584.jpg"
+    -
+      url: "DSC_8589.jpg"
+
