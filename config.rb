@@ -20,6 +20,8 @@ after_configuration do
 
 end
 
+page "/staging/*", :layout => "staging-layout"
+
 # Build-specific configuration
 configure :build do
 
