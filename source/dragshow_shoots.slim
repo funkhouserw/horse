@@ -1,0 +1,25 @@
+#background
+.midground_holder
+  #midground
+.foreground_holder
+  #foreground
+
+  .doge.betagiving
+    .wrapper
+      .header
+        h1 Hamburger Mary's Dragshow
+        h3
+          = "by Horsebike Photography (wilfunkhouser"
+          = image_tag 'dotcom.png'
+          = ")"
+        p = "click for hi-res"
+
+      .booth_wrapper
+        - full_url = "#{data.shoots.base_url}#{data.shoots.dragshow.folder}#{data.shoots.dragshow.full}"
+        - thumb_url = "#{data.shoots.base_url}#{data.shoots.dragshow.folder}#{data.shoots.dragshow.thumb}"
+        .photographs
+          - data.shoots.dragshow.photographs.each do |photo|
+            .photo
+              a href="#{full_url+photo.url}"
+                  img src="#{thumb_url+photo.url}"
+

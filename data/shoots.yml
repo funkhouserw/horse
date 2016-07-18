@@ -1143,3 +1143,407 @@ christmas:
       url: "DSC_9331.jpg"
     -
       url: "DSC_9332.jpg"
+
+dragshow:
+  folder: "shoots/dragshow/"
+  full: "full/"
+  thumb: "thumbs/"
+  photographs:
+    -
+      url: "DSC_1819.jpg"
+    -
+      url: "DSC_1820.jpg"
+    -
+      url: "DSC_1878.jpg"
+    -
+      url: "DSC_1823.jpg"
+    -
+      url: "DSC_1824.jpg"
+    -
+      url: "DSC_1822.jpg"
+    -
+      url: "DSC_1827.jpg"
+    -
+      url: "DSC_1828.jpg"
+    -
+      url: "DSC_1829.jpg"
+    -
+      url: "DSC_1832.jpg"
+    -
+      url: "DSC_1835.jpg"
+    -
+      url: "DSC_1836.jpg"
+    -
+      url: "DSC_1839.jpg"
+    -
+      url: "DSC_1840.jpg"
+    -
+      url: "DSC_1841.jpg"
+    -
+      url: "DSC_1842.jpg"
+    -
+      url: "DSC_1843.jpg"
+    -
+      url: "DSC_1844.jpg"
+    -
+      url: "DSC_1845.jpg"
+    -
+      url: "DSC_1846.jpg"
+    -
+      url: "DSC_1847.jpg"
+    -
+      url: "DSC_1852.jpg"
+    -
+      url: "DSC_1855.jpg"
+    -
+      url: "DSC_1858.jpg"
+    -
+      url: "DSC_1860.jpg"
+    -
+      url: "DSC_1861.jpg"
+    -
+      url: "DSC_1862.jpg"
+    -
+      url: "DSC_1863.jpg"
+    -
+      url: "DSC_1865.jpg"
+    -
+      url: "DSC_1866.jpg"
+    -
+      url: "DSC_1868.jpg"
+    -
+      url: "DSC_1871.jpg"
+    -
+      url: "DSC_1873.jpg"
+    -
+      url: "DSC_1875.jpg"
+    -
+      url: "DSC_1876.jpg"
+    -
+      url: "DSC_1877.jpg"
+    -
+      url: "DSC_1826.jpg"
+    -
+      url: "DSC_1879.jpg"
+    -
+      url: "DSC_1880.jpg"
+    -
+      url: "DSC_1881.jpg"
+    -
+      url: "DSC_1882.jpg"
+    -
+      url: "DSC_1883.jpg"
+    -
+      url: "DSC_1884.jpg"
+    -
+      url: "DSC_1887.jpg"
+    -
+      url: "DSC_1888.jpg"
+    -
+      url: "DSC_1889.jpg"
+    -
+      url: "DSC_1890.jpg"
+    -
+      url: "DSC_1891.jpg"
+    -
+      url: "DSC_1892.jpg"
+    -
+      url: "DSC_1893.jpg"
+    -
+      url: "DSC_1894.jpg"
+    -
+      url: "DSC_1895.jpg"
+    -
+      url: "DSC_1896.jpg"
+    -
+      url: "DSC_1897.jpg"
+    -
+      url: "DSC_1898.jpg"
+    -
+      url: "DSC_1900.jpg"
+    -
+      url: "DSC_1901.jpg"
+    -
+      url: "DSC_1902.jpg"
+    -
+      url: "DSC_1905.jpg"
+    -
+      url: "DSC_1906.jpg"
+    -
+      url: "DSC_1908.jpg"
+    -
+      url: "DSC_1909.jpg"
+    -
+      url: "DSC_1913.jpg"
+    -
+      url: "DSC_1914.jpg"
+    -
+      url: "DSC_1915.jpg"
+    -
+      url: "DSC_1916.jpg"
+    -
+      url: "DSC_1918.jpg"
+    -
+      url: "DSC_1920.jpg"
+    -
+      url: "DSC_1921.jpg"
+    -
+      url: "DSC_1922.jpg"
+    -
+      url: "DSC_1923.jpg"
+    -
+      url: "DSC_1925.jpg"
+    -
+      url: "DSC_1926.jpg"
+    -
+      url: "DSC_1928.jpg"
+    -
+      url: "DSC_1929.jpg"
+    -
+      url: "DSC_1930.jpg"
+    -
+      url: "DSC_1931.jpg"
+    -
+      url: "DSC_1932.jpg"
+    -
+      url: "DSC_1933.jpg"
+    -
+      url: "DSC_1934.jpg"
+    -
+      url: "DSC_1935.jpg"
+    -
+      url: "DSC_1936.jpg"
+    -
+      url: "DSC_1939.jpg"
+    -
+      url: "DSC_1940.jpg"
+    -
+      url: "DSC_1941.jpg"
+    -
+      url: "DSC_1942.jpg"
+    -
+      url: "DSC_1945.jpg"
+    -
+      url: "DSC_1946.jpg"
+    -
+      url: "DSC_1948.jpg"
+    -
+      url: "DSC_1949.jpg"
+    -
+      url: "DSC_1950.jpg"
+    -
+      url: "DSC_1951.jpg"
+    -
+      url: "DSC_1952.jpg"
+    -
+      url: "DSC_1953.jpg"
+    -
+      url: "DSC_1954.jpg"
+    -
+      url: "DSC_1956.jpg"
+    -
+      url: "DSC_1958.jpg"
+    -
+      url: "DSC_1959.jpg"
+    -
+      url: "DSC_1960.jpg"
+    -
+      url: "DSC_1961.jpg"
+    -
+      url: "DSC_1962.jpg"
+    -
+      url: "DSC_1963.jpg"
+    -
+      url: "DSC_1964.jpg"
+    -
+      url: "DSC_1965.jpg"
+    -
+      url: "DSC_1968.jpg"
+    -
+      url: "DSC_1969.jpg"
+    -
+      url: "DSC_1970.jpg"
+    -
+      url: "DSC_1971.jpg"
+    -
+      url: "DSC_1974.jpg"
+    -
+      url: "DSC_1976.jpg"
+    -
+      url: "DSC_1977.jpg"
+    -
+      url: "DSC_1979.jpg"
+    -
+      url: "DSC_1980.jpg"
+    -
+      url: "DSC_1981.jpg"
+    -
+      url: "DSC_1982.jpg"
+    -
+      url: "DSC_1984.jpg"
+    -
+      url: "DSC_1986.jpg"
+    -
+      url: "DSC_1988.jpg"
+    -
+      url: "DSC_1989.jpg"
+    -
+      url: "DSC_1990.jpg"
+    -
+      url: "DSC_1991.jpg"
+    -
+      url: "DSC_1993.jpg"
+    -
+      url: "DSC_1994.jpg"
+    -
+      url: "DSC_1995.jpg"
+    -
+      url: "DSC_1996.jpg"
+    -
+      url: "DSC_1997.jpg"
+    -
+      url: "DSC_1998.jpg"
+    -
+      url: "DSC_1999.jpg"
+    -
+      url: "DSC_2000.jpg"
+    -
+      url: "DSC_2001.jpg"
+    -
+      url: "DSC_2002.jpg"
+    -
+      url: "DSC_2003.jpg"
+    -
+      url: "DSC_2004.jpg"
+    -
+      url: "DSC_2005.jpg"
+    -
+      url: "DSC_2006.jpg"
+    -
+      url: "DSC_2007.jpg"
+    -
+      url: "DSC_2008.jpg"
+    -
+      url: "DSC_2009.jpg"
+    -
+      url: "DSC_2010.jpg"
+    -
+      url: "DSC_2013.jpg"
+    -
+      url: "DSC_2016.jpg"
+    -
+      url: "DSC_2018.jpg"
+    -
+      url: "DSC_2021.jpg"
+    -
+      url: "DSC_2024.jpg"
+    -
+      url: "DSC_2025.jpg"
+    -
+      url: "DSC_2029.jpg"
+    -
+      url: "DSC_2030.jpg"
+    -
+      url: "DSC_2031.jpg"
+    -
+      url: "DSC_2038.jpg"
+    -
+      url: "DSC_2039.jpg"
+    -
+      url: "DSC_2041.jpg"
+    -
+      url: "DSC_2042.jpg"
+    -
+      url: "DSC_2045.jpg"
+    -
+      url: "DSC_2047.jpg"
+    -
+      url: "DSC_2048.jpg"
+    -
+      url: "DSC_2051.jpg"
+    -
+      url: "DSC_2053.jpg"
+    -
+      url: "DSC_2054.jpg"
+    -
+      url: "DSC_2055.jpg"
+    -
+      url: "DSC_2056.jpg"
+    -
+      url: "DSC_2057.jpg"
+    -
+      url: "DSC_2058.jpg"
+    -
+      url: "DSC_2061.jpg"
+    -
+      url: "DSC_2062.jpg"
+    -
+      url: "DSC_2063.jpg"
+    -
+      url: "DSC_2064.jpg"
+    -
+      url: "DSC_2065.jpg"
+    -
+      url: "DSC_2066.jpg"
+    -
+      url: "DSC_2069.jpg"
+    -
+      url: "DSC_2070.jpg"
+    -
+      url: "DSC_2071.jpg"
+    -
+      url: "DSC_2072.jpg"
+    -
+      url: "DSC_2074.jpg"
+    -
+      url: "DSC_2075.jpg"
+    -
+      url: "DSC_2076.jpg"
+    -
+      url: "DSC_2077.jpg"
+    -
+      url: "DSC_2078.jpg"
+    -
+      url: "DSC_2079.jpg"
+    -
+      url: "DSC_2080.jpg"
+    -
+      url: "DSC_2081.jpg"
+    -
+      url: "DSC_2082.jpg"
+    -
+      url: "DSC_2083.jpg"
+    -
+      url: "DSC_2085.jpg"
+    -
+      url: "DSC_2092.jpg"
+    -
+      url: "DSC_2093.jpg"
+    -
+      url: "DSC_2094.jpg"
+    -
+      url: "DSC_2095.jpg"
+    -
+      url: "DSC_2096.jpg"
+    -
+      url: "DSC_2098.jpg"
+    -
+      url: "DSC_2100.jpg"
+    -
+      url: "DSC_2102.jpg"
+    -
+      url: "DSC_2107.jpg"
+    -
+      url: "DSC_2109.jpg"
+    -
+      url: "DSC_2110.jpg"
+    -
+      url: "DSC_2113.jpg"
+    -
+      url: "DSC_2115.jpg"
+    -
+      url: "DSC_2116.jpg"
+    -
+      url: "DSC_2117.jpg"
+    -
+      url: "DSC_2118.jpg"
